@@ -1,0 +1,73 @@
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     3.0.4 build Aug 21 2018
+ 2006 - 2018 Copyright by rt-thread team
+File System on root initialized!
+File System on sd initialization failed!
+msh />
+ Persimmon 2.0.0 build Aug 21 2018
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+5
+8
+8
+9
+6
+3
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1

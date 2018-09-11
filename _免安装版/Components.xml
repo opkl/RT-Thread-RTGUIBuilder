@@ -1,0 +1,789 @@
+<?xml version="1.0" ?>
+<Components>
+	<Component Name="page" Namespace="System.WinWindows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Value" Caption="控件文本" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+
+			<Property Name="Frame" Caption="帧数" Group=""/>
+			<Property Name="FrameInterval" Caption="帧间隔（毫秒）" Group=""/>
+			<Property Name="EmergeLocation" Caption="移动" Group=""/>
+			<Property Name="EnterAnimState" Caption="淡入淡出" Group=""/>
+
+			<Property Name="QFrame" Caption="帧数" Group=""/>
+			<Property Name="QFrameInterval" Caption="帧间隔（毫秒）" Group=""/>
+			<Property Name="QEmergeLocation" Caption="移动" Group=""/>
+			<Property Name="QuitAnimState" Caption="淡入淡出" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	
+	<Component Name="button" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="LongPress" Caption="使能长按" Group=""/>
+			<Property Name="longPressMs" Caption="间隔（毫秒）" Group=""/>
+			<Property Name="longPressOnce" Caption="使能单次" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="BindTap" Caption="bindtap" Group=""/>
+			<Property Name="Value" Caption="控件文本" Group=""/>
+			<Property Name="PathUnpressed_image" Caption="显示图片" Group=""/>
+			<Property Name="PathPressed_image" Caption="点击图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>		
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="label" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Textd" Caption="控件文本" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="AutoSize" Caption="自动调整大小属性" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="imagebox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="ImagePath" Caption="图片" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="staticline" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="line_color" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Size" Caption="size" Group=""/>
+			<Property Name="Location" Caption="location" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Event_func" Caption="event_func" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding></DataBinding>
+	</Component>
+		
+	<Component Name="textbox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景颜色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="MaxLength" Caption="输入字符串最大值" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Textd" Caption="控件文本" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="RTGUI_TEXTBOX_MASK" Caption="显示密码字符" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindInput" Caption="bindinput" Group=""/>
+			<Property Name="BindFocus" Caption="bindfocus" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding/>
+	</Component>
+	<Component Name="MultiTextBox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+
+			<Property Name="RowHeight" Caption="行高" Group=""/>
+			<Property Name="Textd" Caption="控件文本" Group=""/>	
+			<!--<Property Name="textLines" Caption="总行数" Group=""/>
+			<Property Name="currentLine" Caption="当前行" Group=""/>-->
+		</Propertys>
+		<DataBinding></DataBinding>
+	</Component>
+	
+	<Component Name="radiobox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="NorPathImage" Caption="正常图片" Group=""/>
+			<Property Name="SelPathImage" Caption="选择图片" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="ButtonGroup" Caption="按钮组" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding></DataBinding>
+	</Component>
+	<Component Name="checkbox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Text" Caption="控件文本" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="PathUnpressed_image" Caption="未选中显示图片" Group=""/>
+			<Property Name="PathPressed_image" Caption="选中显示图片" Group=""/>
+			<Property Name="Checked" Caption="选中值" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="slider" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="value" Caption="当前值" Group=""/>
+			<Property Name="Min" Caption="最小值" Group=""/>
+			<Property Name="Max" Caption="最大值" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="PathBarImage" Caption="当前值显示图片" Group=""/>
+			<Property Name="PathNormalImage" Caption="最大值显示图片" Group=""/>
+			<Property Name="PathSliderImage" Caption="滑动色块图片" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="BindChanging" Caption="bindchanging" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="progressbar" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="value" Caption="当前值" Group=""/>
+			<Property Name="range" Caption="最大值" Group=""/>
+			<Property Name="Min" Caption="最小值" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="PathBarImage" Caption="当前值显示图片" Group=""/>
+			<Property Name="PathNormalImage" Caption="最大值显示图片" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="Switch" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="PathBackNorImage" Caption="关时图片" Group=""/>
+			<Property Name="PathBackSelImage" Caption="开时图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="OnOff" Caption="开/关" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="combobox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="CombbItems" Caption="items" Group=""/>
+			<Property Name="SelectedIndex" Caption="onselected" Group=""/>
+			<Property Name="Size" Caption="size" Group=""/>
+			<Property Name="Location" Caption="location" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Event_func" Caption="event_func" Group=""/>
+			<Property Name="Onselected_func" Caption="onselected_func" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="panel" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindTap" Caption="bindtap" Group=""/>
+			<Property Name="CustomPanel" Caption="自定义面板" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="custompanel" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="container" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="border_style" Caption="外框显示方式" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+
+		</DataBinding>
+	</Component>
+	<Component Name="card" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<!-- <Property Name="border_style" Caption="外框显示方式" Group=""/> -->
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="ctrlDisplay" Caption="显示控件" Group=""/>
+			<Property Name="currentCtrl" Caption="当前控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="currentId" Caption="当前编辑控件" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="selectIndex" Caption="选中项" Group=""/>
+			<Property Name="Enable" Caption="多重子控件" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="listbox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="Items" Caption="items" Group=""/>
+			<Property Name="current_item" Caption="current_item" Group=""/>
+			<Property Name="page_items" Caption="page_items" Group=""/>
+			<Property Name="Size" Caption="size" Group=""/>
+			<Property Name="Location" Caption="location" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Event_func" Caption="event_func" Group=""/>
+			<Property Name="On_item_func" Caption="on_item_func" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+
+		</DataBinding>
+	</Component>
+	<Component Name="timer" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="TIMER_FLAG_DEACTIVATED" Caption="TIMER_FLAG_DEACTIVATED" Group=""/>
+			<Property Name="TIMER_FLAG_ACTIVATED" Caption="TIMER_FLAG_ACTIVATED" Group=""/>
+			<Property Name="TIMER_FLAG_ONE_SHOT" Caption="TIMER_FLAG_ONE_SHOT" Group=""/>
+			<Property Name="TIMER_FLAG_PERIODIC" Caption="TIMER_FLAG_PERIODIC" Group=""/>
+			<Property Name="TIMER_FLAG_HARD_TIMER" Caption="TIMER_FLAG_HARD_TIMER" Group=""/>
+			<Property Name="TIMER_FLAG_SOFT_TIMER" Caption="TIMER_FLAG_SOFT_TIMER" Group=""/>
+			<Property Name="time" Caption="time" Group=""/>
+			<Property Name="Timeout_func" Caption="timeout_func" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+	</Propertys>
+		<DataBinding>
+
+		</DataBinding>
+	</Component>
+	<Component Name="DotIndicator" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="selNum" Caption="选中项" Group=""/>
+			<Property Name="gap" Caption="间隙" Group=""/>
+			<Property Name="nums" Caption="总数" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="PathSelImage" Caption="当前点图片" Group=""/>
+			<Property Name="PathNormalImage" Caption="正常点图片" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="listControl" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="itemGap" Caption="间隙" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>		
+			<Property Name="BindChange" Caption="bindchange" Group=""/>		
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+	<Component Name="wheelImage" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="selNum" Caption="选中项" Group=""/>
+			<Property Name="selSize" Caption="选中大小" Group=""/>
+			<Property Name="norSize" Caption="正常大小" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="BindTap" Caption="bindtap" Group=""/>
+
+			<Property Name="ShowNum" Caption="显示个数" Group=""/>
+			<Property Name="ForeImagePath" Caption="前景图片" Group=""/>
+
+			<Property Name="BmpList" Caption="图像文件集" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="WheelString" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="selNum" Caption="选中项" Group=""/>
+			<Property Name="selSize" Caption="选中大小" Group=""/>
+			<Property Name="norSize" Caption="正常大小" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="BindTap" Caption="bindtap" Group=""/>
+
+			<Property Name="ShowNum" Caption="显示个数" Group=""/>
+			<Property Name="ForeImagePath" Caption="前景图片" Group=""/>
+
+			<Property Name="StringList" Caption="字符集合" Group=""/>
+			<Property Name="NorColor" Caption="正常颜色" Group=""/>
+			<Property Name="SelColor" Caption="选中颜色" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="groupbox" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Orient" Caption="方向" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="SelectNum" Caption="选中项" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="animatedImage" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="Id" Caption="id" Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="LoopPlayBack" Caption="是否循环播放" Group=""/>
+			<Property Name="PlayElapsed" Caption="播放时间间隔" Group=""/>
+
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="BindDone" Caption="binddone" Group=""/>
+			<Property Name="BindChange" Caption="bindchange" Group=""/>
+			<Property Name="BmpList" Caption="图像文件集" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="QRCode" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="Source" Caption="二维码内容" Group=""/>
+			<Property Name="Version" Caption="二维码纠错等级" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+
+		</Propertys>
+		<DataBinding>
+		</DataBinding>
+	</Component>
+
+	<Component Name="CircleProgress" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+
+			<Property Name="Value" Caption="当前值" Group=""/>
+			<Property Name="Max" Caption="最大值" Group=""/>
+			<Property Name="Min" Caption="最小值" Group=""/>
+			<Property Name="R1" Caption="内径" Group=""/>
+			<Property Name="R2" Caption="外径" Group=""/>
+			<Property Name="PathProgressImage" Caption="进度图" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding/>		
+	</Component>
+
+	<Component Name="Canvas" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding/>
+	</Component>
+
+	<Component Name="Clock" Namespace="System.Windows.Forms" Asm="System.dll">
+		<Propertys>
+			<Property Name="BkColor" Caption="背景颜色" Group=""/>
+			<Property Name="FrColor" Caption="前景色" Group=""/>
+			<Property Name="OPacity" Caption="透明度" Group=""/>
+			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<Property Name="font" Caption="字体"  Group=""/>			
+			<Property Name="FontSize" Caption="字体大小"  Group=""/>
+			<Property Name="X" Caption="x坐标点" Group=""/>
+			<Property Name="Y" Caption="y坐标点" Group=""/>
+			<Property Name="_Width" Caption="宽度" Group=""/>
+			<Property Name="_Height" Caption="高度" Group=""/>
+			<Property Name="Locked" Caption="控件锁定" Group=""/>
+			<Property Name="_Name" Caption="控件名称" Group=""/>
+			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
+			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+
+			<Property Name="PathHImage" Caption="时针图片" Group=""/>
+			<Property Name="PathMImage" Caption="分针图片" Group=""/>
+			<Property Name="PathSImage" Caption="秒针图片" Group=""/>
+			<Property Name="PathCImage" Caption="中心图片" Group=""/>
+			<Property Name="ClockTime" Caption="时间（秒）" Group=""/>
+
+			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
+			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
+			<Property Name="Alarm" Caption="alarm" Group=""/>
+			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+		</Propertys>
+		<DataBinding/>
+	</Component>
+
+</Components>
