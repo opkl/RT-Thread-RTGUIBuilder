@@ -11,6 +11,9 @@
 5、输出栏添加清空功能
 6、page Canvas panel 控件添加bingtouch属性
 
+..\example 新增学习例子demo
+..\themes  新增配套资源图
+
 
 	修正问题：
 1、设置没有头文件的点阵字体文件时不重新绘制文本
