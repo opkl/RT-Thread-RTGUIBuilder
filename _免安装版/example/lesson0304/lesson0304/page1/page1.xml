@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>255</g>
+      <b>255</b>
+    </property>
+    <widgets>
+      <widget name="card1" class="Card">
+        <property name="direction">
+          <enum>HORIZONTAL | CYCLE</enum>
+        </property>
+        <property name="rect">
+          <x>233</x>
+          <y>120</y>
+          <width>300</width>
+          <height>200</height>
+        </property>
+        <widgets>
+          <widget name="imagebox4" class="ImageBox">
+            <property name="img">
+              <string>4.png</string>
+            </property>
+            <property name="rect">
+              <x>233</x>
+              <y>120</y>
+              <width>300</width>
+              <height>200</height>
+            </property>
+          </widget>
+          <widget name="imagebox3" class="ImageBox">
+            <property name="img">
+              <string>3.png</string>
+            </property>
+            <property name="rect">
+              <x>233</x>
+              <y>120</y>
+              <width>300</width>
+              <height>200</height>
+            </property>
+          </widget>
+          <widget name="imagebox2" class="ImageBox">
+            <property name="img">
+              <string>2.png</string>
+            </property>
+            <property name="rect">
+              <x>233</x>
+              <y>120</y>
+              <width>300</width>
+              <height>200</height>
+            </property>
+          </widget>
+          <widget name="imagebox1" class="ImageBox">
+            <property name="img">
+              <string>1.png</string>
+            </property>
+            <property name="rect">
+              <x>233</x>
+              <y>120</y>
+              <width>300</width>
+              <height>200</height>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <widgets>
+      <widget name="inputbox04" class="Button" bindtap="onInput">
+        <property name="rect">
+          <x>498</x>
+          <y>250</y>
+          <width>200</width>
+          <height>75</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="label4" class="Label">
+        <property name="text">
+          <string>输入框四</string>
+        </property>
+        <property name="rect">
+          <x>498</x>
+          <y>222</y>
+          <width>100</width>
+          <height>22</height>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="label2" class="Label">
+        <property name="text">
+          <string>输入框二</string>
+        </property>
+        <property name="rect">
+          <x>498</x>
+          <y>91</y>
+          <width>100</width>
+          <height>22</height>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="inputbox02" class="Button" bindtap="onInput">
+        <property name="rect">
+          <x>498</x>
+          <y>119</y>
+          <width>200</width>
+          <height>75</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="inputbox03" class="Button" bindtap="onInput">
+        <property name="rect">
+          <x>102</x>
+          <y>250</y>
+          <width>200</width>
+          <height>75</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="label3" class="Label">
+        <property name="text">
+          <string>输入框三</string>
+        </property>
+        <property name="rect">
+          <x>102</x>
+          <y>222</y>
+          <width>100</width>
+          <height>22</height>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>输入框一</string>
+        </property>
+        <property name="rect">
+          <x>102</x>
+          <y>91</y>
+          <width>100</width>
+          <height>22</height>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+      <widget name="inputbox01" class="Button" bindtap="onInput">
+        <property name="rect">
+          <x>102</x>
+          <y>119</y>
+          <width>200</width>
+          <height>75</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>16</size>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

@@ -1,0 +1,118 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6785.31218, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.imagebox, Library, Version=1.0.6785.31218, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">10</Property>
+        <Property name="Y">5</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">31</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">30</Property>
+        <Property name="BkColor">255, 212, 208, 200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">1.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAN9JREFUSEtjOPPi/P+BwKMW0w2PWkw3PDQsbp7a+l9VS/W/d6gPGNs422BVRwwmyeLl+1b+dwtwB2NxKfH/DAwMWNURg8kO6pSitIGxOK0kY9RikvCoxUTjUYtJxSRZvO/Gwf8bTmz+v+vK3v8B0YFgi7df2PV/56U9/9ceWY9VDy5MksWJ+cn/uXi4/8urKPwXEhUGY0VVxf+i4qL/eXh5/h+5fwyrPmyYJItBPp2zaf7/lQfXAH26E4w3ntwMFluya9n/08/OYdWHDZMdx5TiUYvphkctphseaRaf/w8AillylAcQZDgAAAAASUVORK5CYII=</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">10, 5</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">30, 31</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.6785.31218, Culture=neutral, PublicKeyToken=null" name="label1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">50</Property>
+        <Property name="Y">5</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">30</Property>
+        <Property name="_Name">label1</Property>
+        <Property name="_Width">140</Property>
+        <Property name="BkColor">255,255,255,255</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Text">1.png</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="TextAlign">MiddleLeft</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">White</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 12pt</Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">50, 5</Property>
+      <Property name="Name">label1</Property>
+      <Property name="Size">140, 30</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">asc</Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">
+      </Property>
+      <Property name="_Height">40</Property>
+      <Property name="_Name">item</Property>
+      <Property name="_Width">200</Property>
+      <Property name="BkColor">255,175,96,255</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">175, 96, 255</Property>
+    <Property name="ClientSize">200, 40</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="Text">item</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">0, 0, 0</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

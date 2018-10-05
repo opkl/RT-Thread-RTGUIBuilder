@@ -1,0 +1,78 @@
+
+  <Object type="Library.page, Library, Version=1.0.6785.31218, Culture=neutral, PublicKeyToken=null" name="page1" children="Controls">
+    <Object type="Library.Canvas, Library, Version=1.0.6785.31218, Culture=neutral, PublicKeyToken=null" name="Canvas1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">hz</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">12</Property>
+        <Property name="Y">12</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">456</Property>
+        <Property name="_Name">Canvas1</Property>
+        <Property name="_Width">776</Property>
+        <Property name="BkColor">255,255,255,255</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="Font">宋体, 12pt</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="BackColor">255, 255, 255</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">12, 12</Property>
+      <Property name="Name">Canvas1</Property>
+      <Property name="Size">776, 456</Property>
+    </Object>
+    <Property name="Text">page1</Property>
+    <Property name="win_location">0, 0</Property>
+    <Property name="EnterAnimState">False</Property>
+    <Property name="EmergeLocation">无</Property>
+    <Property name="Frame">10</Property>
+    <Property name="FrameInterval">50</Property>
+    <Property name="QuitAnimState">False</Property>
+    <Property name="QEmergeLocation">无</Property>
+    <Property name="QFrame">10</Property>
+    <Property name="QFrameInterval">50</Property>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">asc</Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">
+      </Property>
+      <Property name="_Height">480</Property>
+      <Property name="_Name">page1</Property>
+      <Property name="_Width">800</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="ClientSize">800, 480</Property>
+    <Property name="AutoScaleDimensions">6, 12</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="Name">page1</Property>
+  </Object>

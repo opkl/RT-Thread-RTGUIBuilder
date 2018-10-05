@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>255</g>
+      <b>255</b>
+    </property>
+    <widgets>
+      <widget name="imagebox7" class="ImageBox">
+        <property name="img">
+          <string>day.png</string>
+        </property>
+        <property name="rect">
+          <x>722</x>
+          <y>125</y>
+          <width>53</width>
+          <height>67</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox8" class="ImageBox">
+        <property name="img">
+          <string>month.png</string>
+        </property>
+        <property name="rect">
+          <x>542</x>
+          <y>120</y>
+          <width>54</width>
+          <height>72</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox9" class="ImageBox">
+        <property name="img">
+          <string>year.png</string>
+        </property>
+        <property name="rect">
+          <x>510</x>
+          <y>36</y>
+          <width>55</width>
+          <height>68</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number8" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>286</x>
+          <y>35</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number7" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>342</x>
+          <y>35</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number6" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>398</x>
+          <y>35</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number1" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>666</x>
+          <y>123</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number2" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>610</x>
+          <y>123</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number3" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>479</x>
+          <y>121</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number4" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>423</x>
+          <y>121</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="number5" class="ImageBox">
+        <property name="img">
+          <string>zero.png</string>
+        </property>
+        <property name="rect">
+          <x>454</x>
+          <y>35</y>
+          <width>50</width>
+          <height>69</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox10" class="ImageBox">
+        <property name="img">
+          <string>humidity.png</string>
+        </property>
+        <property name="rect">
+          <x>221</x>
+          <y>363</y>
+          <width>85</width>
+          <height>40</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox11" class="ImageBox">
+        <property name="img">
+          <string>windlevel.png</string>
+        </property>
+        <property name="rect">
+          <x>540</x>
+          <y>365</y>
+          <width>96</width>
+          <height>40</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox12" class="ImageBox">
+        <property name="img">
+          <string>wind.png</string>
+        </property>
+        <property name="rect">
+          <x>540</x>
+          <y>273</y>
+          <width>96</width>
+          <height>40</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="imagebox13" class="ImageBox">
+        <property name="img">
+          <string>temp.png</string>
+        </property>
+        <property name="rect">
+          <x>217</x>
+          <y>273</y>
+          <width>89</width>
+          <height>40</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="humidity" class="Label">
+        <property name="text">
+          <string>--------</string>
+        </property>
+        <property name="rect">
+          <x>344</x>
+          <y>365</y>
+          <width>115</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>32</size>
+        </property>
+      </widget>
+      <widget name="windlevel" class="Label">
+        <property name="text">
+          <string>--------</string>
+        </property>
+        <property name="rect">
+          <x>666</x>
+          <y>365</y>
+          <width>115</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>32</size>
+        </property>
+      </widget>
+      <widget name="wind" class="Label">
+        <property name="text">
+          <string>--------</string>
+        </property>
+        <property name="rect">
+          <x>666</x>
+          <y>275</y>
+          <width>115</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>32</size>
+        </property>
+      </widget>
+      <widget name="temp" class="Label">
+        <property name="text">
+          <string>--------</string>
+        </property>
+        <property name="rect">
+          <x>343</x>
+          <y>273</y>
+          <width>115</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>32</size>
+        </property>
+      </widget>
+      <widget name="imagebox14" class="ImageBox">
+        <property name="img">
+          <string>logo.png</string>
+        </property>
+        <property name="rect">
+          <x>12</x>
+          <y>408</y>
+          <width>165</width>
+          <height>60</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="cityname" class="ImageBox">
+        <property name="img">
+          <string>beijing.png</string>
+        </property>
+        <property name="rect">
+          <x>12</x>
+          <y>36</y>
+          <width>237</width>
+          <height>135</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

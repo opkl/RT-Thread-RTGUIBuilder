@@ -1,0 +1,652 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.label, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="displaybar" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">16</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">20</Property>
+        <Property name="Y">61</Property>
+        <Property name="_Height">45</Property>
+        <Property name="_Name">displaybar</Property>
+        <Property name="_Width">360</Property>
+        <Property name="BkColor">255,255,255,255</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Textd" />
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">White</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">20, 61</Property>
+      <Property name="Name">displaybar</Property>
+      <Property name="Size">360, 45</Property>
+      <Property name="TabIndex">43</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="close" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">336</Property>
+        <Property name="Y">1</Property>
+        <Property name="_Height">37</Property>
+        <Property name="_Name">close</Property>
+        <Property name="_Width">60</Property>
+        <Property name="BkColor">255, 212, 208, 200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value">X</Property>
+      <Property name="Pressed_image" />
+      <Property name="Unpressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAlRJREFUaEPtmaGOwkAURRscil8gQcAHoFHwAygcDoVCYVAoDAaDIkEhkBgEggRBgiAIDCHgSAi4/kA3t0k3tNwJnfKGsN2KI7a9fcxpuzOPwbJt2/lPJMJxJxGOOyLChULByWazLovFgmaiMhqNfmvjc1hGBxFhDMayLJd0Ou1st1ua02U2m7n1vNr4HJbTQVzYkz6fzzQblvV67ZMFXysMMpmMc7vdaP4Vx+PxSRbk83ma10FE+HA4iA3wer3SWjgW9QY+IiIMVqvV00Dxd6lUonkVuEmPNbw6eOosr4uYMJhOp1S6Wq3SfBDcHHb9ZrOh+SiICoPhcEgH3Ww2ad4DN4VdN5/PaT4q4sKg2+3SwbfbbZqv1+s0Px6Paf4djAgDPFEm0e/3Q+V6vZ4vJ4UxYaB6TSeTiXseUuz8q9f/HYwKA9VEVKvVlMdZHSmMC4NisegTY0A27Gz+Dh8RRsOAzouJAsjqrtdR+Ygw2O/3VBbkcjl6jQk+Jnw6nZxUKkWFJb72heVjwqxl9IjdK81m6iCxmbRUa3GlUqHHTa7BwKhwo9GgUti2wflOp0PPozUN1pLCmHCr1aIywZZR1VoOBgNfTgojwrot46sWVBJxYQySDf7VhKRqQbGxwPJRERVeLpd00OVymeaDqHY7sIXE8lEQE97tdk+yAH00yzNULSjqXi4Xeo0uIsLYkmWyGPz9fqfXqJCsxRARVr2KUZ+KxNuiQkSYbcS/+3/H5oOv3IjHIKVm1uCM/zXCjz+mSa+dWNO92l/zY9pfIhGOO4lwvLGdHzV0emM2krBkAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="PathPressed_image" />
+      <Property name="PathUnpressed_image">close.png</Property>
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">336, 1</Property>
+      <Property name="Name">close</Property>
+      <Property name="Size">60, 37</Property>
+      <Property name="TabIndex">42</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num11" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">268</Property>
+        <Property name="Y">310</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num11</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">268, 310</Property>
+      <Property name="Name">num11</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">40</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num0" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">135</Property>
+        <Property name="Y">310</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num0</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">135, 310</Property>
+      <Property name="Name">num0</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">39</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num10" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">1</Property>
+        <Property name="Y">310</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num10</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">1, 310</Property>
+      <Property name="Name">num10</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">38</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num9" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">267</Property>
+        <Property name="Y">251</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num9</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">267, 251</Property>
+      <Property name="Name">num9</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">37</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num8" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">134</Property>
+        <Property name="Y">251</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num8</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">134, 251</Property>
+      <Property name="Name">num8</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">36</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num7" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">251</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num7</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">0, 251</Property>
+      <Property name="Name">num7</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">35</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num6" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">267</Property>
+        <Property name="Y">192</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num6</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">267, 192</Property>
+      <Property name="Name">num6</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">34</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num5" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">134</Property>
+        <Property name="Y">192</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num5</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">134, 192</Property>
+      <Property name="Name">num5</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">33</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num4" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">192</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num4</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">0, 192</Property>
+      <Property name="Name">num4</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">32</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num3" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">267</Property>
+        <Property name="Y">134</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num3</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">267, 134</Property>
+      <Property name="Name">num3</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">31</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num2" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">134</Property>
+        <Property name="Y">134</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num2</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">134, 134</Property>
+      <Property name="Name">num2</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">30</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6846.20384, Culture=neutral, PublicKeyToken=null" name="num1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">134</Property>
+        <Property name="_Height">56</Property>
+        <Property name="_Name">num1</Property>
+        <Property name="_Width">132</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value" />
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAIQAAAA4CAYAAAA8TFCpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAI9JREFUeF7t0jERACAMADGk10fNMnHHe8gQBzkzs/AIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIwWf2AqdZzyVdGAETAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">button.png</Property>
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">keyboard</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">0, 0, 0</Property>
+      <Property name="Location">0, 134</Property>
+      <Property name="Name">num1</Property>
+      <Property name="Size">132, 56</Property>
+      <Property name="TabIndex">29</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="backImage">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</Property>
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">asc</Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">keyboard_bg_02.png</Property>
+      <Property name="Visibled">True</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_Height">366</Property>
+      <Property name="_Name">keyboard02</Property>
+      <Property name="_Width">400</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="ClientSize">400, 366</Property>
+    <Property name="Text">keyboard02</Property>
+    <Property name="BackgroundImage">
+      <Binary>iVBORw0KGgoAAAANSUhEUgAAAZAAAAFuCAMAAACY+b6XAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFAAAAAQEBAgICAwMDBAQEBQUFBgYGBwcHCAgICQkJCgoKCwsLDAwMDQ0NDg4ODw8PEBAQEREREhISExMTFBQUFRUVFhYWFxcXGBgYGRkZGhoaGxsbHBwcHR0dHh4eHx8fICAgISEhIiIiIyMjJCQkJSUlJiYmJycnKCgoKSkpKioqKysrLCwsLS0tLi4uLy8vMDAwMTExMjIyMzMzNDQ0NTU1NjY2Nzc3ODg4OTk5Ojo6Ozs7PDw8PT09Pj4+Pz8/QEBAQUFBQkJCQ0NDRERERUVFRkZGR0dHSEhISUlJSkpKS0tLTExMTU1NTk5OT09PUFBQUVFRUlJSU1NTVFRUVVVVV1dXWFhYWVlZWlpaW1tbXFxcXV1dXl5eX19fYGBgYWFhYmJiY2NjZGRkZWVlZmZmZ2dnaGhoaWlpampqa2trbGxsbW1tbm5ub29vcHBwcXFxcnJyc3NzdHR0dXV1dnZ2d3d3eHh4eXl5enp6e3t7fHx8fX19fn5+f39/gYGBgoKCg4ODhISEhYWFhoaGh4eHiIiIiYmJioqKi4uLjIyMjY2Njo6Oj4+PkJCQkZGRkpKSk5OTlJSUlZWVlpaWl5eXmJiYmZmZmpqam5ubnJycnp6en5+foKCgoaGhoqKio6OjpKSkpaWlpqamp6enqKioqampqqqqq6urrKysra2trq6ur6+vsLCwsbGxsrKys7OztLS0tbW1tra2t7e3uLi4ubm5urq6u7u7vLy8vb29vr6+v7+/wMDAwcHBwsLCw8PDxMTExcXFxsbGx8fHyMjIycnJysrKy8vLzMzMzc3Nzs7Oz8/P0NDQ0dHR0tLS09PT1NTU1dXV1tbW19fX2NjY2dnZ2tra29vb3Nzc3d3d3t7e39/f4ODg4eHh4uLi4+Pj5OTk5eXl5ubm5+fn6Ojo6enp6urq6+vr7Ozs7e3t7u7u7+/v8PDw8fHx8vLy8/Pz9PT09fX19vb29/f3+Pj4+fn5+vr6+/v7/Pz8/f39/v7+////AAAAAAAAAAAAI2Z9JgAAAAlwSFlzAAALEgAACxIB0t1+/AAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4yMfEgaZUAABXgSURBVHhe7Z17gBTFmcCnq3tmd2EXdnEBXTBRQfEN+AyIiEFRz+NORY0mGj1BPaIJvnKIZ06D+PZARCFGTWKMJqAB8UlgAwgI7M6CCgoGYQF57cK+Z2e6q2r+uOrd2mrv5A+3vjmqVr8fC9T07ExX96+/qurX17FGxCpQiGWgEMtAIZaBQiwDhVgGCrEMFGIZKMQyUIhloBDLQCGWgUIs4yBCGhoaZAk59GCEWAYKsQwUYhkoxDJQiGWgEMtAIZaBQiwDhVgGCrEMFGIZKMQyUIhlHExIvfwfMQBGiGWgEMtAIZaBQiwDhVgGCrEMFGIZKMQyUIhlxJpkAbGD2O7q7dWIPcQamjBGbAKbLMvATt0yUIhloBDLQCGWgUIsA4VYBgqxDBRiGSjEMlCIZaAQy0AhloFCLAOFWAYKsYyDCWkSP9rof7RZf7bt1TYDaMZfT2JyMCF1dQd0qdtfL0udZz9gvgLAh+tqIXOGzLht6/9fHERIfWPG1yQIUoHuhynnjAXyRefIpP0g7aflq85CxWz15hsSBGntRfYba+U6jziYkBTP6sL1PwoEMGcukEUNIJ+lNXKdRxxUiPx1LYwZMYj2MrOar13SkHMhSCdAIZaBQiwDhVjGoRDyXezUtTkEQsyNe7si2GRZBgqxDBRiGSjEMlCIZaAQy0AhloFCLAOFWAYKsQwUYhkoxDJQiGWgEMtAIZaBQiwDhVgGCrEMFGIZKMQyUIhloBDLQCGWgUIsA4VYBgqxDBRiGSjEMlCIZaAQy0AhloFCLAOFWAYKsQwUYhn//0LwDsNO8Y2FhNk/Dj2ihrKkA+TDoBkDoPu/mRD56xqwjCwcWoRKKotaQD7MAB+mNV/LmHUwIY0yeZAGmbqMdq4i32+l+mmSWnxf+8MZwBL76Sb9JW7d/7UMZgcR0lBfp88B+b8WoA9DOABZZAD13yyjHGIQFGIZKMQyUIhloBDLQCGWgUIsA4VYBgqxDBRiGSjEMlCIZaAQy0AhloFCLAOFWAYKsQwUYhkoxDJQiGWgEMtAIZaBQiwDhVhGbLt5tm3ZKksmqd62uVoWTRKTV5kaZRtlsmSUStD1wTki1nZZvFnY9rQNtzGwCiZLJrFBCK+mNgjhVTbUwgYh2WoqC0ZBIQoUEoFCFChEgUIiUIgChShQSAQKUaAQBQqJQCEKFKJAIREoRIFCFN8qIcAvyYEQzrj4kS+0AAthAvDaBAthlFIWcNhD/nMghPHwdIZ8oQVYiNgiWAD+ErgQTv22tSEn6AAXwll6624GOpUAF1K7/u1PoWm+wEL2vTT5ujuf2wzbOoFCGPWDL/81Pgq2KCAhPEi9fr5HXFJ8/XqfUf0tAyCEcx7U3lVEPEJI/LJPmYgV+U6nAQuhn5weJ+cZFJJN3ZNPCk8aenhefsk80WLor1VAhPBszVgvPmTi45OG53sDNoguTb7RaYBCgg0TC+M9XZNC+JOJvIk7KM2sGOUWr6X6XwWJkGxwKyl+yacBzbzbh4xK6wcqRAgP6F3d3W733eCZa7JYdnNPclNr2/LvHUSuCoxECOPrujuPtEvgMx13vf76AAnh/JrEWYuC8eaaLM7oVLfXHlET8YI95PU8oD/EgQjxH3ePqG8v8215sTn6tYAJoS+83RpQg0Ky3B9Nxoqxf7h1src9Um0kQmgwqewyuRB8X4/YDEN9SNuGybMTHGNNFmUtJ5EpcunZPJdUa68JWKfeXN8S7g2JiGXJfPI3Y6OsNm52zEUIS91/yzty7sGdpHeTkSarHTHaDQLaMpEMaPoOCxG76FxGxY5+7o8B++twIUEmnfpsQrzXez7XrkZuhJgbZYWtZngwjTPWeDXptR5wVA0uZOuZJ/Yj8QtWUMD+aVePkHao8LH3qnj+o5DDSDkQ0q9Xj4LEueUZ0XjJaZ3m2yEkG9DVJ3vdH83oj7FyIYQ21O9ZPj6/+3TfzLC3A5NNliAc2zTPKnLL/kRB1wgDhIRNptgWWNh2+o96eUvFQFyTrh8hnAb+9kvj7sjPwqTfcqIOACEsiLoNljmRXGPsWFYbhpuswC8f5BU/nIKelQEIofUL3twTtJc5vZkM8w0LMTjKYpy+3sM7fk1beGivhhCAEH9XYeKPsr3k7CbnLF/7q7p6hHBOF5e4wwA76ApIk9U81LspPPQvvoFnfkD+5Tvbh3BKdx9NBu8MzAoJgge9Hh+H5/VF7/66S17Ur08uhExwRsHWB0AIC34dL1gGOCEUARDC6Y6jyYlLfbEcqTeOIGc3muzUOZ1ALoDskEGEsKBlqFsy8Wcd3LZDvyIAIYJ3Sr3Ci38941fDEuTYTwDHC3Ih5Bb3h6AdAIgQujfPdYnTAVmvXxOYkEzlhfkucWNO0fXVkPF3DoSwL1ZuhDUZgCaL75n085/frphk6PC7GPnS1qonJ9w48fnNftDWuWuSiz4EjL6QXAITkitQiAKFKFBIBApRoBAFColAIQoUokAhEShEgUIUKCQChShQiAKFRKAQBQpRoJAIFKJAIQoUEmGDEEuSYDI7hHAL2B6EF2wYZ50NtYgdsIDN+2XBHPtFFarMV+PAgVjKPC1bm2XJJC3N61tk0STYqSuwU1egkAgUokAhChQSgUIUKESBQiJQiAKFKFBIBApRoBAFColAIQoUokAhEShEgUIUKCQChSi+NUIoDYCJvmFCvvqY0PBZnXJyp4EJEZWgLGA8THoO+R64EE4DSrnMK6EHSAhrbmhq6SAFuN0SKISyjF//5b5UuDbkNB1yEiGv3PVoRr7QAiSkdfjAYxRT9FO5AYVQmikfe2TvPif87NMM5A5YqBAuNo33i8ggU0J4trbEcWMdTBCNhnyn0wCFtNyRIAX9DyOk55zwmg05udMAhYT59T47ynOOS8sJWugLEfP/Rzd3SbKDrYD2Aiak9e548eTN+/fNP9MtXEDNZXLg2dQY71hjQrKcr847oqW9Rxcw2pERs/PAhCzOK3rVD58gsvsscnKTuQhhmV96l0x3BpkSwvj7iRNaVV6mUIosdhqIEN56hjOxbbSX5W95zmr9MQ5YyBsFA3c8EzMo5GX3tDAHJmywGQIQwvmKvKKdslx/2cWvGWuy+ObSbksDg0Ky2WnOZaIjF62FSSF0Chkno4KJqmT0H9IAESK2yoZzvRmUzTIYIeweZ1JQ/8L1F1/xyOYwEyWg2dEXwtIjvOli5s07qxupGAEbykpKWfqO+LWtWf6sMSGiF7+BTHm2r+t5xM37972QvIsQIQ1H5S/yK68p9LyCH76agrSfoAgJXkicVENNCmFZOtI9NjH4qYVvP3ualxjZYGbYy3YVFKx+uVderzP65nn545uNCGFZXtGndLWYtUEhYnhzqlvwlNgmGW99KM/7FeCgGkTIZlIwu+eola00k7zai0/2DXTqAQtqBnuzg3Ckaa4P4bT+3KMekB9PX0P61BrZU+cfO17vi2p5GJ4t13oFG8Jkf3poC6FB+sb4zZkweZpRIX6qJZDjG7oi7i7U3wMACMl+FvOKtrTvlbKdPZzJBpLxs2AWGVHH2o59zwp3DPWXBtJkUR7QjkdU0LreZJqRPXW2w3UvyLTPmtJx5AIDERJs6NX7w4aGpqaGpsYZzqC9DfWt8p3Ooy8kzPAddAz6aWvv2L362wVEyP4ycofcEji/I3a2/gFfbSF8cYLkd8tPJPLFX5d0y8v/i3yn8wCarODz95d0LD1rLHUfMCOk9XRyu2wsOb2dDEsfeiFsSb7ntuG5hIT/vibf6Tz6QljwMjms2pcvVuc5C7XXBEgIneiMlLXgdLQTPqZME20hYl34QYgf+DOd45p9wMOGABHCtvaIzwwYpaImLT9y+9WZ2Q9hi+KFG5mohvhZV0ieMXDoRPTlYvAfwsV+yPGiU9deHJAQeqPbd61YET5NPRDPn2nmFC5jqeHk/FqxYTBWf4nbb6+RQydy0YWZZ51BrYZGWQHdfgYpGr+w4oMXzvXc8Wn9tgIihLNgTW9vxNL61sZlY9zCuUYfeSQ20meJEAIAIETM/8vL8x037hG39KFWwFYBESLw5/clif4DvpfwSudAFgcuROwK/Pn0caCHmYOEMJpZMunsk0685JEt+o9RCYEJYfTTm/sRh5T9ZD3gEeI5ESJazgC2KmAREj5dk6YyPgsAVzgIgEICmmn6bN2munCEIafpkAMhkMVoByREzr+tRwNVBSakY96g7xDkQAgcmJBcARSSI1CIAoUoUEgEClGgEAUKiUAhChSiQCERKESBQhQoJAKFKFCIAoVEoBAFClGgkAgUokAhCiuEcEuEcPPQ6vDpseZJhpfFmia21TzbPq3+QhYNsm3LR7JkFBsihG21JELC65RNg32IAjt1BQqJQCEKFKJAIREoRIFCFCgkAoUoUIgChUSgEAUKUaCQCBSiQCEKFBKBQhQoRIFCIlCIoqsL+T/3H3Mjt0WHtJ1GyIo/kCoIgEJY+NNeFcj3aAvhlNV9lf2AWx1BQnjA0h8t+M2c+esyFHBTNFQIo5md774w580tlJq56ZPyphN6foXDNpkSknnvtIK4F/cKTn0LdHM2UEjNL4rDRCOFF230zUQIazpS5veOxUjMIVsMCWFTu5OyK35577gykv+wqacj8OzWszx3yPjbR/Zwy5YCMvxBhAQbFZ+MdwalTAgR6/+d7t7Nu0U7QffdkshfqJ9bDyKEsbozvCMXpBlNf3ymO3AXNZBag7XlkpPUDyIPA1YFIEJYcJkzpoWGeV9o8xjvAjPJ+BmbEe9WHqaeCdjWY93JzEDOxTCXXFtB+MgucEu3MP3kepAIaT7afTHD2zL20te80iYjEcJTZ5KfCAvCBw1+R0pqjCSfkYg14Z/vjoNkUYBESP2RiUUdOaX/lkgc0K8FQAjdXeS90vHpnYXOPP1Eg3AhWcYru3vlkNE3QAhPn06eknOms7zj9VO5gZqsjV7eMrkQvLmnc4+x3O8hLLidnJ4Kd810AQih9EFyUk17ef8pzhT9vEggIZucRHnHnJtLnEtMZJRT0Noj3On6NgSAPiTL9p3nnvNubeDXLjrPHVmjHlzReSBNVm2JOydss8N+ZH0BOdeoEDbbOWyn/oYpAESIWI+1dxXFi3uX9vQKb6sTnbuc3HlAnfoock6LKLCAtt7mkrPTBoXwhiHudVR/iCWA9CGcb7yuh+M6DnEKf7wR0nBChNCXPXeKWAec+X/qMcQxkSZWIgabi/IKVgM2TAGgyWLByuL48U980dS0ZfpJpM9ywOAbIiSbvjrhXVq+feuHEwr+7Qn3nIzJCLnGG5YC7BUKABESNJ3sjtgViJ0iyvaOdQbuN9KHCCM118Udr7i0wLuh/i5ntLE+RHSqO/Pc34gdMzlBC0iEPO+WbAhCIYwFW3o5Txg5liWWP8i8c9XJZcePfStgP3Um6tcCKoTRX7m99stXugCEBOPIqEBsDeEK4Gysc6n+tgkQErSlzKWpuvDJIcEpznPG9tQ523eUO1F77hJ9IYydSq7rCE/ObiHD9Z9wCerUG5tb5VF3vikv/rl+gwEVQv/sFn1kTkiWjnVG+h2HTvhF7hj97hQghPm3HH2rzKlN7yUjAKeooEKCkc5o0LNfQyBCpnvFH8lb0diGAvKgfmMBERJMc/vsaqsD+6xP/lxAlwoUkq3wnN+DTpyGQITs6R8fsSXs1DmtPje/9zYjnTqjm4q9Kw9QTv1tZ7kXQU5cAoXQG70+zaCdwhCAkIDO7UH6/eLNVSvevLufV/QHwKkhiBDmP5yID5mx6K2pAxPHfq6/OGAh2/u4/6n/NJkO9IWIMQ1bPLjAcV2POHlD3zZ16ETsoT9YSgjx4onhm0CPuAQK2fX73+2BnEFuBxAh4cpofO++MSOGXTj5vUbQqgAIETB/81P/PHzEDfPrAUEqgHbqLBxQmBUS7qQH4g+FXQUEFBKevuW0bQfVaO53eHgIQEJEiIgqiD49HOTISVrAhLTPXLRd4dnk9klaQIXkBJiQXAETkitQiAKFKFBIBApRoBAFColAIQoUokAhEShEgUIUKCQChShQiAKFRKAQBQpRoJAIFKJAIQoUEhFLW8C2plZZMknrxy2yZJLYavN8WFm960vj7NpZIetjlFileZLJr97RawoWJCtkhUxig5DKKvCFRDmA88qkrI9JrBCyzo5O3QYfKCQChShQSAQKUaAQBQqJQCEKFKJAIREoRIFCFCgkAoUoUIgChUSgEAUKUaCQCBSiQCEKuBDOQDf2tYFCFCAhnPp7Xrpy2A8u/+2eAHbTJwrpABYhdOUgQhJx1xu0CpTkG4UoYEI+OdL7/mPL/v70MeTwShSSEwBCGE2Nck75R0BZsG2IO7IJcAssTEiyoqKycm1lRUVFEnRuvqsL4XRhPH9F++3hq/Pz34BkcoBFSDK5ePZzTz/zzDNPz5j1vv5XdXEhnAdXuqN9Ft6yz9IXk7GAbh0opOrpvkV9D+8TUlr2hPZ3dXUhrLG/O1NICD2wl0jJAf0sCgAhycqKtdML/2nRBx8sW7Z8eXn5fxW/K9/pNF2+D/nEzVslo4JVxckHRoRUVFY93uOalWHnEX5Jsrx0RvsbnafLN1mvx3pWSyG8psSZCeiOAEIqHup+64fJNY/MrqxceceStcvLnpbvdBqwkDUvPlkOveIPIuQx5/A6+YKlSp37zUTIQz0nrhbjq3sPn71q3IC3k8v6TZfvdBqokOTzg4dcob8k7QCaLP5QrKyxo8zKnCmyrAFAyLTud1eIbqSqYnLJiAFvVqxd3t9Yk5V8/NShw2VZG0iETP2KEGpKyJiipZVCR3LdsqHxR0XAmBOSXLPkRxfONNlkTXP6NXT0IX7f2H2yrAFAyG9LLl+ZXLuuYs0Vx0zoNXudaLLMderJNaugLRZIyGyn974OIU0lzjRA6wdYjhf6XLxM7KjfMHD+mim9X68014ckk5VV4agPBqQPWUYKNsiOnG3tFntNP70dREjyxT6j/15Z+ce/ViU/nLMiudxYhFQkw50ig00W21GQ91cphC5yySZAVlKIkIpXyoaXV1WtWSv69orKxb1myTc6DbjJygWACGGtg9075e0l/n94x7UY6UNCXu1/6hOvzZs3b+7cv/zh2n5L5dRO09WF0OAB73tymHVgAJkCyBMLFLJ2wVnF3Qu7C7oVnjJfu9Ho4kI451/0IPe3PXGVTfNKNhs72isa7zWLFr4pmD//rVX6jXhXjxCxHv87r9vUmpS/77Fu3lQ5TQtghOSIri+ENf/U8waMuWhgPH59+FwubVCIAhYhLP34gDzXSQx8qhUvcsgNICECfmDN3HmrauUrXVCIAiokyyhnFPolKEQBFpINz6lDmqsQFKKAC8kFKESBQiJQiAKFKFBIBApRoBAFColAIQoUokAhEShEgUIUKCQChShQiAKFRNggJLkOdB4jR3AU0kGyyooIYbI6ZrFBSMW6oC1zrlkYS9oQIrEqC9i4xwo+l9UxSFXV/wBhw2n2qYAUXwAAAABJRU5ErkJggg==</Binary>
+    </Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

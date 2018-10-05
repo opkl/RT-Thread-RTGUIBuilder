@@ -1,0 +1,879 @@
+
+  <Object type="Library.page, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="page1" children="Controls">
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox7" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">722</Property>
+        <Property name="Y">125</Property>
+        <Property name="_Height">67</Property>
+        <Property name="_Name">imagebox7</Property>
+        <Property name="_Width">53</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">day.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">54</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">722, 125</Property>
+      <Property name="Name">imagebox7</Property>
+      <Property name="Size">53, 67</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox8" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">542</Property>
+        <Property name="Y">120</Property>
+        <Property name="_Height">72</Property>
+        <Property name="_Name">imagebox8</Property>
+        <Property name="_Width">54</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">month.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">53</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">542, 120</Property>
+      <Property name="Name">imagebox8</Property>
+      <Property name="Size">54, 72</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox9" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">510</Property>
+        <Property name="Y">36</Property>
+        <Property name="_Height">68</Property>
+        <Property name="_Name">imagebox9</Property>
+        <Property name="_Width">55</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">year.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">52</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">510, 36</Property>
+      <Property name="Name">imagebox9</Property>
+      <Property name="Size">55, 68</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number8" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">286</Property>
+        <Property name="Y">35</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number8</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">51</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">286, 35</Property>
+      <Property name="Name">number8</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number7" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">342</Property>
+        <Property name="Y">35</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number7</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">50</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">342, 35</Property>
+      <Property name="Name">number7</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number6" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">398</Property>
+        <Property name="Y">35</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number6</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">49</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">398, 35</Property>
+      <Property name="Name">number6</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">666</Property>
+        <Property name="Y">123</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number1</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">48</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">666, 123</Property>
+      <Property name="Name">number1</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number2" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">610</Property>
+        <Property name="Y">123</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number2</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">47</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">610, 123</Property>
+      <Property name="Name">number2</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number3" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">479</Property>
+        <Property name="Y">121</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number3</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">46</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">479, 121</Property>
+      <Property name="Name">number3</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number4" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">423</Property>
+        <Property name="Y">121</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number4</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">45</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">423, 121</Property>
+      <Property name="Name">number4</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="number5" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">454</Property>
+        <Property name="Y">35</Property>
+        <Property name="_Height">69</Property>
+        <Property name="_Name">number5</Property>
+        <Property name="_Width">50</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">zero.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">44</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">454, 35</Property>
+      <Property name="Name">number5</Property>
+      <Property name="Size">50, 69</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox10" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">221</Property>
+        <Property name="Y">363</Property>
+        <Property name="_Height">40</Property>
+        <Property name="_Name">imagebox10</Property>
+        <Property name="_Width">85</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">humidity.png</Property>
+      <Property name="Text">imagebox13</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">25</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">221, 363</Property>
+      <Property name="Name">imagebox10</Property>
+      <Property name="Size">85, 40</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox11" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">540</Property>
+        <Property name="Y">365</Property>
+        <Property name="_Height">40</Property>
+        <Property name="_Name">imagebox11</Property>
+        <Property name="_Width">96</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">windlevel.png</Property>
+      <Property name="Text">imagebox13</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAGAAAAAoCAYAAAABk/85AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAADHFJREFUaEPtmgVsG9sShsvMzMzMlcrMzGpVUpmZmauyyqwyV2UGlZlblZmZmebpm+vjt3Edx7GT9Eo3Ix05ic/unqF//plNCAmWvypB5oBfv37ZfgoWqwSaA16/fi0HDx6UWbNmSe/evaVDhw7St29fOX78uPz+/du2K1gCzAEY9fPnz3LixAk1eOHChSV16tQSM2ZMCRMmjIQMGVLChQsnBQoUkL179wa4E7jfjx8/5OvXr7p+/vxp++Yf+fTpk0ycOFHatGkj169ft/31/8J+rkMHx2sDU7x2AIq/f/9e9u/fLy1atJAUKVJIxIgR1eAhQoRQoydNmlQKFSokJUqUkFixYknlypXlzp07tjt4Ljz7+fPncuXKFTl8+LDMnTtXevbsKd26dZP169fLhw8fbDtF7t+/L5MmTZJs2bLJtGnT7A579eqVXLx4UVasWCF9+vRRHdasWaMOCwrx2gG3b9+WwYMHS+LEidXgZuGA5MmTS7NmzWTr1q3y8eNHVapKlSoSPnx4VdLbLCBSgbjMmTPrPa3PT5gwoSxZssTHM3j+0KFDpW3btvLo0SNZvny5dOzYUbOVAEmQIIFemylTJqdZEhjilQMePnwoDRo0kLBhw/pQHsghynft2qXZYeTbt28aYewZMmSI16mOca9duya1a9eW0KFD+zgDK2/evPL9+3fb7n+IAHWpQoUKcvr0admwYYPMmTNHdu/eLYcOHZIsWbJo4KDT06dPbVcFrnjsgC9fvmi6R40aVZXl4BEiRFAI6tGjh9y8efMP5sM19erV0/0jRowIMGYEnGFIDGt1RMaMGRXXnzx5YoejGzduSJEiRdQRBoYwdvv27SVKlCiSK1cuhbOgqgNuO4DDPn78WM6cOaOwA6ykS5dO8Z7U5eDt2rVTxTC0M3ihwGEkjDN//vwAc4Ax5KVLl9SIxgEYFcMvXbpUnYAAPcDN6tWrNTuAmqZNm+p1sWPH1joRVPiPuO2AN2/eKF4mSZJEihcvrrhZqVIlxVQK2N27d/00KIpxHcbZvHmzUyd5KjybIkzR5/5k5LJly+Tly5cyZswYhT/k2bNnUrp0aa1bQBABQQDB1rgWokBRDypx2wFgbZ48eezRlSZNGo12/0Qx0ZgjRw6tEfv27bP91XvBkWRm/vz57ecLFSqUGhhaPHXqVNtOUdZUtmxZZWYs9hL50aJFk0iRIilNhRkFlbjtAGgckWMUJGI2btz4RxSDnS9evFBcphmzOoiCjONQFOd5K0AIBt2yZYsUK1bMHv1mURdGjRol27dvt10hivdEOd9TL1g4C9bUr18/haqAzEy/xG0HcLC6deuq4Q3HHzlypNJLI2A8/UCTJk0kbdq0SvfAZSPv3r3TqKNwHzlyxPZX/wuF9erVq0oj69evrxFszmQWzoDvlytXzkfPgQOAUIxOMID9UGj2cv6gFrccQEQcOHBAevXqJa1bt1blUGD8+PH2zpFiNmjQIO1+rYYgqozggPjx40v06NG9cgCRDcV05P5mAXHly5fXXgOMtwYJdYhzcgaChAwgUMjWgBayn6K/bds2bfaslNiIWw7AcKQyIwRYAorHiBFDCynKLV68WPLly/eHQegPuMbI27dvtRPmWk8dgBLWWuRs5cyZU44dO6ZRPWXKFHsBRggmGBiZbPY7ZgmMirNSC/jZU1m7dq0ULFhQizy1j37Dkd766QAOfP78eeXvRAkRTQZgxO7du0utWrUkbty4dizFOOAxxu/UqZM9srgP6Y/iXHv06FH9u3+F+5CFjpDD4m9ENgGB8dgH7zd1COVPnjypTIyCTUZTfIEhzopuFStW1IYMeCKbS5UqpYXck76AACDgOBu2oYaSEVbx0wFED1DDNBOBM1ubHavyGH/y5MmSMmVKTW/6BQyG8AlVxfjeOADBiBgJpaxnoBGkCYRt7dy5U1q2bOkj7c+ePav4X7JkSZ3KUp+yZs2q16ITRieT6W3MPQmkcePG+YAxdwXiAlU39sLZdOBW8dMBKMNYAW9yCCLCWfSRBatWrVIHgcF0ydaGBgfQHWN8b2sARZhu1XSv5gwUd4Jl3rx5UrVqVR13EP08G2PXqFFDp7FAAz1DzZo17cYmUhcsWCCjR4/We6Ijn1xz4cIFjzKA50KPqUPAM87GKVbx0wGwjezZsyunJoKYJhqFrYsH0PpHjhxZaWbjxo2126SBQ6wOYA8G9EbA5rFjx/qIVoyGEzAcQTB79mx9Lmlfp04dHdpheOCHfdYMAlZz586tdJTf+STogFDu4angOHooBoNkvWMh9tMBRAuGpagtWrRIWYxp2VeuXCmNGjVSZTm0UQhDYGT2NW/eXJ2AEhQ6HICzYFWeCpmFQkCds2w0i/EyBgCOoL/AC508RTFDhgxKYSEXJouACu7HJ/f3BHacCWdgPOOsoPvpgOHDhys2Xr58WefsGJvD0+IjUCxrFDou9prBF9NTHICSVnbkXyEbGXU7PosaALwZpwCdKE3kMWLme8gEkc30EwMz03Jkb6wdO3Z4FfnuiksH4DmghAknOEgLT3SUKVPGfjjmLK6iENwzhYd0Jiv4Oy9MPFEQJxYtWtTHMwx8UCwbNmxoNyhTT1IeSonhgZUHDx5oXaCOUBesjIpPsgG4oq/x1gHoiyOBPY/6ANp8jE0GgNl0jEQ7mWBk4MCBPozh+G4AvAV6UIZRhGnUZsyY4WNM4Y5wD5qwOHHi2O+P0SimFDegqUuXLvaMhO2YtKdepEqVSmdQsDEoKPrgPHMf7ss+A5neCJBD8MJ8OE/69OkVdh11dumAc+fOacdJESZtiX7Ds42YDGCBr0QaMMXv1AGuhZGsW7dOHWrmSQaf/SMcnt6D+xqj0egQXRgMxsbvpibBYIwDoJ3UMgzBmSAKXM8+FpkKtDEtJWO8dQC6wQTNc7AdDJL7W8WlAyheRD8H52IOShGmHhiBTsKMiHRoHP0C+zAC6U33N2zYML0e45n7VKtWzWlRciU4AOoJlnMPIIW3bia1GSMTcXzHYrJpnEw/w5su853jgn4CGbzi7Nq1q8Kmt04AxuhFMD7PAH7JPqu4dAAvMkhLvGjSmmaLCDEClsJ1iUJuzosZ9hFRHACjAQ2kH9gaL148/R4GA577R0n2TpgwQXsOcJ4ZDlFvZOHChT4KKgTCmvKcgQAiIoEegstkE5SVBi9ZsmQaPPQLTHsdIcO/AjQSNPQZsDDzYsiISwcwRzfRZhaNlrOpIdE8YMAAewTy7hcDE1VmYAe2gr0YCYfS+vt3AonzeZnCyyEcbIQsINqssAJttjoYXMZJ0FCuh50ZNtWqVSvNVHM9n3Tb0G9vhOejI84/derUH1nv0gGwCsd2H/7vDDqYuYCtRgEiCWbC3IWibYZdNGPQQ9KSaKRrtWaUX4JCGJKsskYnGUiEmXPCZoBQRyFjMDxsaNOmTfZ6QeCY7DSL73Cqf87nmxCAzmqeSwfQ1lsdQOTC+53BBnQrUaJEPhQwi2inaeM6lmnocBaFu3PnzjrwcnZfdwRHQAys+M8sisLrTNjPd9YXTL4tGjigyVso8k1cOmD69Ol27GeBmRzGmfAixrziM4sop+VnBIADjBI0ccxHTLbgWAo9MEB0Mv72T4GGWdBxW5/NWy+yEgEGIQs0XYxHGNgBLyb6zRmAIzLW+oKHPVBtzhQY4lYRNodksudYxY1QXJjDs4/DowT7oXYYwDqTR4AH7m0UNcrSKdN7wPcxIN2qX5kB/Jippnk+NQjogCTAasgOYImiS6/CHgoxxZH/7ujfv7/qhqGh1uZ9Aftw1r1792xPC1hx6QDepcJWiGSie+bMmaqQMyG6KcK83GDGgvNovJzhHkJh4mWJ1cFm8TyKPxlHv8C/w7gSCqUVfvgZAoHjqBfQYUMFWTiCLhlCwMyHgSP7jKNhLhjd7MdhjmPkgBKXDqBwMtKlGPP2y8x/fBMinSji0x08x0EYwfqe2XGZ+uEKg5nrmI6WBRmgpiCcg58xOE0k/xMEkaCX8Q3muIbia61/wFdgiEsHEL2wBv/gsX+FN1dkAkM7IhODg8cY1Cz+29rZHMWIYwbwTwFWyEMP4AxHQI0d4dCZMHqBFREYnIdOPjDEpQOCSjAuhXTPnj1KS+lKKXwYngxBed+gDLl165ZUr15d8ZwoJ1sdhah2JyuNUAs4B/Mk/o0S2hoY8q9wgFWMoazLLwGewG2cB/Zbu2NvhHoHTLpzBk/lX+eA/5oEO+AvS7AD/rIEO+Cvisj/AOuGAoquiQeBAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">24</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">540, 365</Property>
+      <Property name="Name">imagebox11</Property>
+      <Property name="Size">96, 40</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox12" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">540</Property>
+        <Property name="Y">273</Property>
+        <Property name="_Height">40</Property>
+        <Property name="_Name">imagebox12</Property>
+        <Property name="_Width">96</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">wind.png</Property>
+      <Property name="Text">imagebox13</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">23</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">540, 273</Property>
+      <Property name="Name">imagebox12</Property>
+      <Property name="Size">96, 40</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox13" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">217</Property>
+        <Property name="Y">273</Property>
+        <Property name="_Height">40</Property>
+        <Property name="_Name">imagebox13</Property>
+        <Property name="_Width">89</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">temp.png</Property>
+      <Property name="Text">imagebox13</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAFkAAAAoCAYAAACVdVbLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAACoxJREFUaEPtmgWMFEsQhnF3d3cJFiSB4O4eJLi7B3d3C4QECRCCeyC4E9wlENzd3evlK6Y3e/t29m653Vvu5VUyuduZ2Z7uv6v++qtmI8h/wH78+KHHr1+/rDN/l4V7kL9+/SobN26URYsWydatW+Xs2bPy+PFj+fnzp3VH4C3cg/z582cZMWKERI4cWSJEiCCJEiWSypUry9q1a+Xbt2/WXYG1cA8yFPHo0SNp2LChRIkSRYHmyJo1qxw5csS6K7D2n+Bk7NmzZ9KqVSuJFy+egszfzZs3W1cDax5B9jaRwIOE6Pv375Ubd+3apV4WVgkJfu7WrZuCnCxZMtmzZ491JbBmCzLAXL16Ve7evSufPn2yztobnrRkyRJp0KCBxI0b1xG2GTNmlOPHj1t3+deY88CBA/W5mTNnltOnT1tXAmu2IH///l1atmwp8ePHl+bNm8u9e/esK78NyXTx4kWZPn26rF+/XubMmaOcGDFiRAfA5hgyZIjfkxBRtGPHDkmVKpXOo0+fPhpR9+/fl+3bt8v+/fs1SQbCPNLFiRMnJE2aNBI1alQZO3asAmtsxYoVeo0FJU+eXDZs2CDjx4/X/9OlSyft2rWTbNmyadafOnWq9S3/2c6dO5WHM2TIIOvWrZPbt29L3759dY5x4sSRxIkT6xoCYR5BhiYmTJgguXPn1qTy5s0b68pvejh58qQUKVJEvXfevHny5csXefv2rbx7907u3LkjBQoUkIQJE6qO9ZcRISS4mjVryoABA2TZsmXqxdBFtGjRHJEVKVIkqVu3rnp3WJtHkDG899KlS3LlypUgnmysdu3auoj+/fsHKQCIAkIXb75x44Z11rcGpS1YsEDlW8+ePaVGjRqSOnXqf1EW0Va1alWdU1glYWcLFmRPxoQrVqyoCyHB1atXT73o5s2bMn/+fF1c/fr1fc7HjHf9+nUZPHiwggolJEiQIAi40aNHl7Rp0yrVJUmSRJo1a6Y5JBAWKpChhsKFCzsWxkFYojAqVaqkn5cvX27dHXpjUwF39OjRUrx4cX2W87PNkSdPHq0CJ0+erBUg5wAbBwiE2YL8+vXrYD2Q5MKCWAQLxntixoypiiRGjBiaBNHJvjLUAYoHwEioJDq8lcMATI5AMj5//lw6d+4spUqV0vPc36JFC7+rHHfmFmS4tUOHDpql4T07+/DhgxQrVkwXAbCNGjWSLl26SNGiRTV0q1Wrpvf4ykjEqBbGb9y4sVLS+fPnpWzZsjoHnjlt2jTNHUePHpXevXvLjBkz1AG4ljNnTk3QKBE0dEj0vy/MLchMEi6FZ0+dOqXn0MnuMnOdOnV0gXhx+/btNRHixZzLlCmTnDt3zmfJhnFevXql0WGS8KZNmxzNIYCEvlAZKIm2bdtK+fLlg3A1B/NLnz69bNmyRcfw1nA88g7FF5VtcOuz9WTKUyZHBUW5um3bNnn48KF1x+8Ff/z4Ubp37+5YoLNkMufwZn95DJIRZcGzoBDzXBIuBxtvNsAceHWsWLFUWg4dOtQayTujuEE1MQ6OBNCezBbkfv366aTQuvAzCcy56nvx4oUMHz5cH+K8CHMAMBQCL/pLm9Jlo/hgc/Pnzx9kg10PrlEkderUSebOnavF09OnT62RvDOqR1SNGZckjMPZmS3IpgeAh7BTVG00w409efJEQzJ27Ngqn7jPZHse3KRJE/0eG+QPw4vHjBmjnsqzjYqwO+inrFq1Sr8XWiOyZ8+e7ejRQKt/BDLFhZngyJEjpWPHjuq9zkbzaPXq1apBc+XKpaHLgwlTqkF4kyyPCuFeX/YOLly4IAULFnTM0fUAeNPH4DPzc65YQ2usBYlIpJMDwMzObEEmM5sJExpt2rT5l1IAODRxr169tCJkNwlHvIo+QdOmTVVC5c2bV8MZnQrooTH4feXKlVKiRAmP9EDfgldSSZMm1c/IN1/nBsYjuoOLDluQ4VIzYbxiypQpQbIoDxg0aJCMGzdOXr58qd7KogoVKqS0AU9CJQBOxYVHMc6oUaP+yKMJUZQKVSVa3ADMXz5zmPlyjvzBnJkD56A7T3LUn+YWZMKchpCZNN4A2TvbwYMHpVatWqpL4eYUKVIoiCwQYKENNoDkRGjnyJFDx6Jw8LZAATASMeHvqhaIEqQUIWuA59lETOvWrR3nSNyeQtobY8PR57yUCEnytAXZSCMOeIfOmrNBC1RcKAhzHyBDH2hrGjLDhg3TCTER3rlxD1794MEDa5SQGTRDZAAw+pZEA3hEzMKFC/UeqjyzAVmyZNHogiIMyPTEPSWnkBrYzJo1S5UKa0GHu2LjarYgV69e3QEeUo1zxigI0Ik8BG6EbwEYTUxyoXQFZEpuWqKEKj1dxuJ+b3m5a9eu+jyiBsVSpUoVHYsWLB1CDAqi2iQHkJDgSV4mEGHciy4mSYe2MOL7dP5YDxsIDZL4vU58AFq6dGmdHAO5iu0zZ85IypQp9Z7Lly9rvxgZx8OYBF6FhwMGC8X7GAvPo7HvLScT6gAEp0I9RAXzIrE6JzOus6lmwUQRDoKHc3+5cuWCyNA/NVSWkY+sC63uie/dgown5suXTwegjUjoORsLBWSApBIEVMKHHgJ8izfxmQXigZSx/AVsXhF5y438aAVlw/fYNKKGhBaSNy68fjJRSW5hvr4wInbixIkaTfR5PEWIW5ChA3iNidELoKXpbCyYwblOv4LEBLB4suFPrrMRhBOKAI8nmdJF461JSI3FHDp0SKMLz0Sa8Vxk5bFjx7SaJLlS6h4+fFhfEDh32tgYwOA7RBIKyFcGsDzPFR9XcwsyiYs2JROjKW/KYgYFYEKU3eM6m4HSILuXKVPG8bsHE0osjEIAjgZ4NgCagV/xsuBs7969uok8m8WYrh/cznmkJqU93EtCJEnzhgQvh6+JLDid7xABS5cutUYOO3MLMhMxuhMvNFkZsPFUeJXihOuhOZB+lOeebPHixQ41gmzihSjfpQrdt2+f43UTUUMLlHYmG805/laoUMGhgNgMWqBhbW5Bpi435SjhbZILhM9iDEjmYEF4CdxLAsyePbuULFlSdTQ9DA5+nwYAaFjG5juU33T7nJOXs0EPVI6GXvB+Ol+MAVh0BQGR5/KTBIwNgbdpuTIn5zmSM/iOJ/70h7kFGX4zDZcePXo4ykb+8hkvJ+xZMJ7F2wg08e7du3URNIXQjkQAAHJAM5yHinjpydtkaIREZJcI+XENCRhOBnBoAPrh1ZaJAJIu3ox8hD6INiQizwBk7jfUxZwBn8Tti0ZRSM0tyICC5mTyaEJnecICqLBmzpwpa9askWvXrllXvDMAp/fhyQCNiIBW2EAiBOAmTZqkoGNsEM0ouJoowrNRRABLdUnVBycTgXgzYKOZiaBbt27pGP42tyBjeASeZJJeIAwA0cckNeQfAAPcgQMHrDt+G+EPpVDhUSQgH/FkOByPZUNoCxhZysEm4NVhYbYg/y2GHOOHK3ghBwrGVbcbA0xDUa4vTNkI3nTzWg2aA2i8OyyaRn89yBiKBs+DU/ntXWiMipAESj5AIYWFhQuQAQaKoPILTviHxPB49LMvm/ieLFyAjBHudirkb7dwA3J4tv9B9ruJ/ANrHMd8x7+hKgAAAABJRU5ErkJggg==</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">22</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">217, 273</Property>
+      <Property name="Name">imagebox13</Property>
+      <Property name="Size">89, 40</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="humidity" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">DROIDSANSFALLBACK.TTF</Property>
+        <Property name="FontSize">32</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">344</Property>
+        <Property name="Y">365</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">humidity</Property>
+        <Property name="_Width">115</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Textd">--------</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">344, 365</Property>
+      <Property name="Name">humidity</Property>
+      <Property name="Size">115, 48</Property>
+      <Property name="TabIndex">21</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="windlevel" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">DROIDSANSFALLBACK.TTF</Property>
+        <Property name="FontSize">32</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">666</Property>
+        <Property name="Y">365</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">windlevel</Property>
+        <Property name="_Width">115</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Textd">--------</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">666, 365</Property>
+      <Property name="Name">windlevel</Property>
+      <Property name="Size">115, 48</Property>
+      <Property name="TabIndex">20</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="wind" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">DROIDSANSFALLBACK.TTF</Property>
+        <Property name="FontSize">32</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">666</Property>
+        <Property name="Y">275</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">wind</Property>
+        <Property name="_Width">115</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Textd">--------</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">666, 275</Property>
+      <Property name="Name">wind</Property>
+      <Property name="Size">115, 48</Property>
+      <Property name="TabIndex">19</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.label, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="temp" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">DROIDSANSFALLBACK.TTF</Property>
+        <Property name="FontSize">32</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">343</Property>
+        <Property name="Y">273</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">temp</Property>
+        <Property name="_Width">115</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Textd">--------</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">343, 273</Property>
+      <Property name="Name">temp</Property>
+      <Property name="Size">115, 48</Property>
+      <Property name="TabIndex">18</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="imagebox14" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">12</Property>
+        <Property name="Y">408</Property>
+        <Property name="_Height">60</Property>
+        <Property name="_Name">imagebox14</Property>
+        <Property name="_Width">165</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">logo.png</Property>
+      <Property name="Text">imagebox14</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">17</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">12, 408</Property>
+      <Property name="Name">imagebox14</Property>
+      <Property name="Size">165, 60</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6831.25706, Culture=neutral, PublicKeyToken=null" name="cityname" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">12</Property>
+        <Property name="Y">36</Property>
+        <Property name="_Height">135</Property>
+        <Property name="_Name">cityname</Property>
+        <Property name="_Width">237</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">beijing.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAO0AAACHCAYAAAD6It6zAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAIxxJREFUeF7t3QW4LGX9B3Ds7u4u1KuiiGKCiS2KiYXdgdiKKCJiIRiI2C0GYndgtyJ2d2K3Pu///bzcuf/DOTs7sTNnz9n9fZ/n99yZ2b27e2beX8e7XSAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAyEb3zjG+mtb31res1rXpPe8Y53pE9/+tPphz/8YfrnP/+Ztr4lEAhsJHziE59IT3rSk9JNb3rTdPvb3z497GEPS4ccckh673vfm7785S+nn/3sZ8HAgcBGwl//+tf0vve9L22//fbp9Kc/fTrpSU+aTnGKU6Szn/3s6da3vnV6yUtekn7xi1+kf/3rX8G4gcBGwH//+9/085//PL3pTW9K17rWtdJpTnOadJKTnKQw7rnOda60ZcuWooUPPPDA9JnPfCb9/e9/D+YNBOaNf//73+n3v/99evazn52uec1rppOf/OSFcfNL5d9TnepUaYcddkj3v//9i+/73e9+N/3tb38L5g0E5o0f//jH6aCDDkoXu9jF0ilPecptjFvR6U53urTjjjsWn5e/++c//zkYNxCYJ/7zn/8k0eTnPOc56TznOU862clOdiKm5e/Suvzde93rXsUX9v8CgcAcITD1ta99LT3hCU9Il7vc5dZo24oufOELpzvc4Q7pVa96VTGt//e//7keCATmgX/84x/pK1/5SnrQgx5UmDNfmkjnPOc5041udKP0hje8If3oRz9Kglr5eiAQmBc++MEPpnvc4x7FTK7TuKc+9anTla985fTKV74yHX/88a4FAoF54Q9/+EN67Wtfmy55yUuWVFC+tIb4uQJU17nOddLBBx9cosphKgcCcwT/dp999knnPe951zDsSjrLWc6Srne965ViDFVUwbiBwJxA2yp13GmnnUrkOF+qpTOd6UzlfQo1VFHla4FAYB744x//WHzb853vfGsYdSXxe+V3r3vd66bXv/71oW0DgXlB6eLznve8dLWrXW0No64mjHvWs5417bnnnund7353kvvN16fCewiGb37zm+mjH/1oevOb35xe+tKXphe84AXF3Ka5jznmmPSb3/ym1ectLYTvUUjLgDLHD3zgA2n33XffxpxNpKpKAQZm+853vpNUW2n5w5hf+tKXismtkwhDYsxnPOMZ6ZGPfGS6+93vnm55y1umXXfdNV3jGtcoWvvmN7952muvvUr981ve8paSR5aWyt8TqOCGyLu52W70b3/723KTIg+3nPDcrYMHPvCBpZEgX2pF5z73udN97nOf9NznPje97GUvSy9+8YtLmeSjH/3owpxyvAo4zna2s9WmlFaSCDZtv++++6avfvWrib8da3IrSEM+zNWvfvW02267pf322y997nOfKzdp61sCSwbaVnnjhS50oVYMhjQenPnMZy7dQsoiMbGCDEwqaCVVJLi1ulyyjnwvxuVb08S09O9+9zuvBb74xS+WKKAwPv/k8pe/fOmtfPKTn1z8FMwbvsXyQZOAXOztbne7dKlLXar03+bL606YnDBgNr/85S+P3DB89rOfLQ/ltKc97bYbRcpd/OIXT3e+853Tq1/96tKeFb2VywWCWu+t8TTqji94wQtuWx/zoDOc4Qxl2sbnP//5aBXU7HzRi160lKjl0xMRk4eJI7L3gx/8YLlv1JKB/4g5FE885SlPKT22+fJc6TKXuUx64hOfGHlhw70ucpGLTGRaGlcu7ipXuUoJy/N18vXAgkPv7Kc+9akSSLrxjW9crK55mccriY9973vfu0Sn8/nywsM5//nPX5gzn64hjMt0NslA+H09I3iGjIlmC5aJaGoLiwji8CCMaVQCXBfP0572tHTXu961CGvPvm3waEyiVEzaeOELX1jWRL62vPjkJz9ZTGCmcD6tpWtf+9oljL9eQ7/+8pe/FCFx5JFHlrweE/1tb3tbaSPDvKH1+4HQ00ereEGq7+tf/3qyBqRpHvrQh5bnLCCpOSC/vTf5/xhN5FhEmZaksZm4gp1XuMIV0pWudKVCV7ziFcs1r3mP91IkSLugJgYzraR/vve978XEyI9//OPpjGc8Y2No340nfdcjCOChSDsxhXyvdAHzzLEE/FFHHZV++ctfjv47FhF/+tOfiuATYNQcIH96gQtcoDCXFIvcbNNaaCL/X3oHA97gBjdI973vfUuxhOjvu971rjI07thjj03f/va3CxEcAqKyFa94xSuKWf74xz+++K/Petazivb3Hr996S0tWtMYkZWR4zryEEg7I0rGZFxa9GMf+1iJXJOyK00zx/J+17/+9UvVTlRwTYaFrd+VW/HhD3+4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</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">12, 36</Property>
+      <Property name="Name">cityname</Property>
+      <Property name="Size">237, 135</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="Text">page1</Property>
+    <Property name="win_location">0, -61</Property>
+    <Property name="EnterAnimState">False</Property>
+    <Property name="EmergeLocation">无</Property>
+    <Property name="Frame">10</Property>
+    <Property name="FrameInterval">50</Property>
+    <Property name="QuitAnimState">False</Property>
+    <Property name="QEmergeLocation">无</Property>
+    <Property name="QFrame">10</Property>
+    <Property name="QFrameInterval">50</Property>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">asc</Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">-46</Property>
+      <Property name="_Height">480</Property>
+      <Property name="_Name">page1</Property>
+      <Property name="_Width">800</Property>
+      <Property name="BkColor">255,255,255,255</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">White</Property>
+    <Property name="ClientSize">800, 480</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="AutoScaleDimensions">6, 12</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">page1</Property>
+  </Object>
