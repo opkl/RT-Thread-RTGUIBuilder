@@ -22,7 +22,6 @@
 			<Property Name="QEmergeLocation" Caption="移动" Group=""/>
 			<Property Name="QuitAnimState" Caption="淡入淡出" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
-			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
 		</Propertys>
 		<DataBinding>
 		</DataBinding>
@@ -78,7 +77,7 @@
 			<Property Name="Textd" Caption="控件文本" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
-			<!-- <Property Name="AutoSize" Caption="自动调整大小属性" Group=""/> -->
+			<Property Name="AutoSize" Caption="自动调整大小属性" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
 		</Propertys>
 		<DataBinding>
@@ -364,7 +363,7 @@
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
-			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
+			<Property Name="BindTap" Caption="bindtap" Group=""/>
 			<Property Name="CustomPanel" Caption="自定义面板" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
 		</Propertys>
@@ -749,7 +748,6 @@
 			<Property Name="_Name" Caption="控件名称" Group=""/>
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
-			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
