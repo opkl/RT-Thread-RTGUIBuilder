@@ -1,0 +1,131 @@
+
+  <Object type="Library.page, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="page1" children="Controls">
+    <Object type="Library.QRCode, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="QRCode1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">123</Property>
+        <Property name="Y">54</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">200</Property>
+        <Property name="_Name">QRCode1</Property>
+        <Property name="_Width">200</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Version">4</Property>
+      <Property name="Source">http://www.rt-thread.org</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>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</Binary>
+      </Property>
+      <Property name="SizeMode">Zoom</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">Zoom</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">123, 54</Property>
+      <Property name="Name">QRCode1</Property>
+      <Property name="Size">200, 200</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.panel, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="panel1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">0</Property>
+        <Property name="Y">0</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">panel1</Property>
+        <Property name="_Width">480</Property>
+        <Property name="BkColor">255, 212, 208, 200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="CustomPanel">statusbar</Property>
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">0, 0</Property>
+      <Property name="Name">panel1</Property>
+      <Property name="Size">480, 48</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="Text">qrcode</Property>
+    <Property name="win_location">0, 0</Property>
+    <Property name="EnterAnimState">False</Property>
+    <Property name="EmergeLocation">向左</Property>
+    <Property name="Frame">10</Property>
+    <Property name="FrameInterval">50</Property>
+    <Property name="QuitAnimState">False</Property>
+    <Property name="QEmergeLocation">向下</Property>
+    <Property name="QFrame">10</Property>
+    <Property name="QFrameInterval">50</Property>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">
+      </Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">
+      </Property>
+      <Property name="_Height">272</Property>
+      <Property name="_Name">qrcode</Property>
+      <Property name="_Width">480</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">480, 272</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="AutoScaleDimensions">6, 12</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">page1</Property>
+  </Object>

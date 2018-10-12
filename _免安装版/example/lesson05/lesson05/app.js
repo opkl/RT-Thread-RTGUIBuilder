@@ -4,13 +4,13 @@ page : "page1/page1",
 onLaunch: function (event)  //app加载回调函数
 {
     console.log('app onLaunch');
-    var thiz = this;
-    uart = pm.openSerialPort({port : "uart5", baud : 115200});    //打开串口设备uart5 波特率设置为 115200
+    
+    uart = pm.openSerialPort({device: "uart5"});    //打开串口设备uart5
     if (uart)
     {
         console.log('pm.openSerialPort OK');
         uart.write(Buffer(" pm.openSerialPort OK!!! ", 'ascii'));     //串口发送数据，一个ascii字符串数据BUFF
-        uart.onData(function(e){thiz.onUart(e)});     //设置串口接收函
+        uart.onData(this.onUart, this);     //设置串口接收函数为 onUart
     }
 },
 

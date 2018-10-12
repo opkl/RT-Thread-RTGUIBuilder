@@ -1,0 +1,123 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.label, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="label1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">13</Property>
+        <Property name="Y">14</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">23</Property>
+        <Property name="_Name">label1</Property>
+        <Property name="_Width">100</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="Text">ChinaNet-test</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="TextAlign">MiddleCenter</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">13, 14</Property>
+      <Property name="Name">label1</Property>
+      <Property name="Size">100, 23</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">216</Property>
+        <Property name="Y">9</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">32</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">32</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">wifi_full_signal.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAA/FJREFUWEftVl1oVEcUntx7927WREGhplSrUAWpqH1rKS1aLIJIC+KDIBT6UooKFmqpf6UsfWmh9MWHtvhQtWmTnblrSjTok+iLYrHVB1/8wZLSFoKYaHJn7kY0ye13Zs/e3JvN+hM2D6IfHPbOme+cM3PmzJkVz/F0oRg7omt4fqEcveEqvT4tBRW9TnOW01QEse+XRt5DkMOQv12px1xl4mnFzul+/P7kHzObxKE4x16eHK3HKkvdwByE46G6QI8rUpPtd6I09DK7fQz03p7rqugbGN+rc6j0COScp6IjjjIHnMDss6LMF57UR2nOlUZPYzcK+RrZbOco08MLwrdBvDnV2FO615fRZjoOpjbGwRt5X4abXRlK2CNw2pe57qnKm8xMAYXjyXBn9nxtBg61lir16aOFdOqFIjAvWlHhC9MtrjWoLIGPHyDpbN7PBeHHIo5bmBa3IPC3KQIFv5STehUTQIlb/FL4KqUR8xeQ5ruwmUj49E06Zc57gdmfV6PLUwFETunVsL2c8BXZ4kgIC/qiRVVFMvE9pdFOAtBv9JQ5kwn4KAEXNqfhawO7EeLURD4XmB8nefpBWw+y2NE50IbVX4HRAxxDkemiHWmFkyDjuGo4Dul3pO7DmOYD1Egf7OmKTlkkxtJ02/7AQIF/Bd4Y5KpQ/xSq2iB2xYl4TnWAlJX1GhgPZJxJfQ2BPkXDWZRObwLoCj3RYix6L/j9GVtl/vJVuJKZwsb6s0GP8NW9lQh+JzGWegCp+8guMo1i0bE6EvpO42zs4apuhx9c22QRg74aWcGMxnCU3j1ppC9mbkFwqx0F9QF2KXHv/0N6h0iQmX/B70I/+FD0Tsxltsh3Db8C/R81f+Dt5qnGKHTffgnEU540MjkWuqYq3AEngzVnD5FBcLfT7bK2aGzUpODzxBy6sk+MXwbnkXFdIKkj7PgGCcZm6jxtgjLGXmYOquJJx3ocjk+6Zf1O5qHBd76s37ULzd6EX5kxc9BO2Fnoyuh9VjcCmhq1YXBhg3rqY/3M0XZcd9D550vDy1glRM/EQqdkPsduj5KgJ3xm2zEj/9voMtyCHbbRNBtuOdpS22FGpBmm3TNtdoBOuRY7nnywUIhWkoXo++C8xfTmA6n+nQOP2bRTIaKjOdLsoQKlOZz7BaY3Gd26I9lpqb66cQRdnIVx+1Q3HdK8VluA060/YW0CR0a7avMi/ZQ3DehitQDY5c+sTQBdJ8+NU7ZY3Vzg3Kt9HU+3g39QonjWo4eHMpKqgYtMbz4QZD3OOn0LtJXaGH+38J9vHdNnB9jhtilBa4sZcVRlK9NmGagHdMJ9CBqQ4EH6UsxG13sGIMT/sDmnjWhgbAoAAAAASUVORK5CYII=</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">216, 9</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">32, 32</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="backImage">iVBORw0KGgoAAAANSUhEUgAAAQ4AAAAyCAYAAACtfjXHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAadJREFUeF7t3b1Nw2AUheEUFIxCySgUlCkYgo0oGIWSASgyBEXKcE8En+zEwbktPI90ilhp/co/kbI5HA5mZq0tHvzeTe2h9lLb1T5rwN+Vczznes75nPtpwFIbLobjrvZWA/6vNCAtOGvE6YEU5rm2rwGkBWnCrBWzD7V8AeDULB7TaOSSxJUGsCRtGLctP9HILYpnGsBv3mvHB6Y/4cgTVIA129oIR16/AKxJK0Y48u4WYM1HbYTDj7uAa6QVIxwA1xIOoE04gDbhANqEA2gTDqBNOIA24QDahANoEw6gTTiANuEA2oQDaBMOoE04gDbhANqEA2gTDqBNOIA24QDahANoEw6gTTiANuEA2oQDaBMOoE04gDbhANpGOPzpNHCN2Z9O73IEYEVaMcLxkiMAK15rIxyPOQKw4qk2wnFTe6sBXPJeu62NcGR3tX0N4FTacF879mIajuy5BnAqbRitmEYjyy1LvuDKA4i0YBaNbPZhsty25H4G+L/SgHF7Mt3Zgcly9bGt5fVL3t36kRj8bTnHc67nnM/bk+OD0KUtHjQzu7zD5guzPFXOW9t48gAAAABJRU5ErkJggg==</Property>
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">
+      </Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">0</Property>
+      <Property name="PathBackImage">wifiItemBG.png</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">wifiItemBG.png</Property>
+      <Property name="_Height">50</Property>
+      <Property name="_Name">custompanel1</Property>
+      <Property name="_Width">270</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">270, 50</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="Text">wifiItem</Property>
+    <Property name="BackgroundImage">
+      <Binary>iVBORw0KGgoAAAANSUhEUgAAAQ4AAAAyCAYAAACtfjXHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAadJREFUeF7t3b1Nw2AUheEUFIxCySgUlCkYgo0oGIWSASgyBEXKcE8En+zEwbktPI90ilhp/co/kbI5HA5mZq0tHvzeTe2h9lLb1T5rwN+Vczznes75nPtpwFIbLobjrvZWA/6vNCAtOGvE6YEU5rm2rwGkBWnCrBWzD7V8AeDULB7TaOSSxJUGsCRtGLctP9HILYpnGsBv3mvHB6Y/4cgTVIA129oIR16/AKxJK0Y48u4WYM1HbYTDj7uAa6QVIxwA1xIOoE04gDbhANqEA2gTDqBNOIA24QDahANoEw6gTTiANuEA2oQDaBMOoE04gDbhANqEA2gTDqBNOIA24QDahANoEw6gTTiANuEA2oQDaBMOoE04gDbhANpGOPzpNHCN2Z9O73IEYEVaMcLxkiMAK15rIxyPOQKw4qk2wnFTe6sBXPJeu62NcGR3tX0N4FTacF879mIajuy5BnAqbRitmEYjyy1LvuDKA4i0YBaNbPZhsty25H4G+L/SgHF7Mt3Zgcly9bGt5fVL3t36kRj8bTnHc67nnM/bk+OD0KUtHjQzu7zD5guzPFXOW9t48gAAAABJRU5ErkJggg==</Binary>
+    </Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

@@ -1,0 +1,136 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.button, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="button1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">37</Property>
+        <Property name="Y">9</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">34</Property>
+        <Property name="_Name">button1</Property>
+        <Property name="_Width">99</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value">button1</Property>
+      <Property name="Pressed_image" />
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image" />
+      <Property name="PathUnpressed_image" />
+      <Property name="BindTap">onButton</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="FlatStyle">Flat</Property>
+      <Property name="FlatAppearance">
+        <Property name="BorderSize">0</Property>
+      </Property>
+      <Property name="Text">button1</Property>
+      <Property name="TextAlign">MiddleLeft</Property>
+      <Property name="UseVisualStyleBackColor">False</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">37, 9</Property>
+      <Property name="Name">button1</Property>
+      <Property name="Size">99, 34</Property>
+      <Property name="TabIndex">3</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="imagebox2" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">7</Property>
+        <Property name="Y">9</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">24</Property>
+        <Property name="_Name">imagebox2</Property>
+        <Property name="_Width">24</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">people-24.png</Property>
+      <Property name="Text">imagebox2</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAATZJREFUSEvt1EFLAkEYxvE1NbXIU+cQkSAiIrpUh8igrpFIRHTIi3TpEHQMCiQQKouiyJAuHjr3Dfs/M3soW22crVM98GPfd13dWXdmgj+TFJaxjxrKSONHsoYOdjGPOVTwjE3EyjRukTDd11xg1pZ+aWLClpEZhwbgnbvwOCgu1/SNy+h+/Qb34dEr10jaMjL67MGWftmB5ny/rODAln7J4AUjpvscTV2tj5zpYmQJLYyazkYr+wrrpouRMaziFTM6EaaAN2wgrxPDRtuBpt8NqtAPflzNqqewhUs8YRFO2cY5sqZzi649w57pvsljePSJ03f112iPGTZ6CqcbFNGF9v+o6dkbvY8FaDqXdMIlGk0dbWgr0Is8xTGOcIIG9LR6wYeItR60JUxCs0lUD9pC/uOaIHgHnhQhnmCG80QAAAAASUVORK5CYII=</Binary>
+      </Property>
+      <Property name="SizeMode">AutoSize</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">2</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">7, 9</Property>
+      <Property name="Name">imagebox2</Property>
+      <Property name="Size">24, 24</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="backImage">iVBORw0KGgoAAAANSUhEUgAAAIsAAAAyCAIAAADjvr8VAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAMlJREFUeF7t0TEKAyEQQNHc/4iChSAIIqK5gAlxtw9Lwv7iv3JGm/mPpTs8P+acY4zee2ut1lpKyTmnlGKMIYT90kL3sBCdhegsRGchOgvRWYjOQnQWorMQnYXoLERnIToL0VmIzkJ0FqKzEJ2F6CxEZyE6C9FZiM5CdBaisxCdhegsRGchOgvRWYjOQnQWorMQnYXoLERnIToL0VmIzkJ0FqKzEJ2F6CxEZyE6C9FZiO56of1TP3fc97SHVwq9d/qH476nbwut9QKpR0s4MrM3nAAAAABJRU5ErkJggg==</Property>
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">
+      </Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">listItemNor.png</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">listItemNor.png</Property>
+      <Property name="_Height">50</Property>
+      <Property name="_Name">custompanel1</Property>
+      <Property name="_Width">139</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">139, 50</Property>
+    <Property name="Location">60, 84</Property>
+    <Property name="BackgroundImage">
+      <Binary>iVBORw0KGgoAAAANSUhEUgAAAIsAAAAyCAIAAADjvr8VAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAMlJREFUeF7t0TEKAyEQQNHc/4iChSAIIqK5gAlxtw9Lwv7iv3JGm/mPpTs8P+acY4zee2ut1lpKyTmnlGKMIYT90kL3sBCdhegsRGchOgvRWYjOQnQWorMQnYXoLERnIToL0VmIzkJ0FqKzEJ2F6CxEZyE6C9FZiM5CdBaisxCdhegsRGchOgvRWYjOQnQWorMQnYXoLERnIToL0VmIzkJ0FqKzEJ2F6CxEZyE6C9FZiO56of1TP3fc97SHVwq9d/qH476nbwut9QKpR0s4MrM3nAAAAABJRU5ErkJggg==</Binary>
+    </Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

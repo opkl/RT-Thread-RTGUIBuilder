@@ -1,0 +1,138 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.imagebox, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="imageTitle" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">165</Property>
+        <Property name="Y">8</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">32</Property>
+        <Property name="_Name">imageTitle</Property>
+        <Property name="_Width">150</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">title_home.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAAJYAAAAgCAYAAADwkoGKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAidJREFUeF7t2j1oVEEUxfFYKhi7oJWxEm3SqJXamDKlCHZ+xRDQTqxtRBvtxCIhFhJURCWdWCgiCcRgERsRGwsRJARrRV3/12RgGM6+sM7bYmfugR9kz7ydt5DLfr6hTqfjXOtk6VwuWTqXS5bO5ZKlc7lk6VwuWVbmDJaTzmWSZWXewGIDptaVty3bBnWegSXLyozC8hMjUMekeslv/Nn4s2t8sAp1F0+wJ+pyHILlMdR68WRZmNdoK2p/5TwsZ6HWiyfLwjyCvY9qYlmHWoule5/EBZyDDVFg57RcxTQuYlJI9yuGLCszAcsC1HqTB/jffIfaswiyrEwbg2XPXOM9+AEfrMK1MVjq0+RzvEq6wAerAv0arPewpL3xwSrE0wZLsHyFWg+OIt23abDs2epX0gU+WIVoI8eQ7ts0WCtYS7rAB6sC/Xop/IyPSRf4YFWgH4N1EJZniPvAB6sC/Rism7C8xC7Ea8YHqwI5gzWHd4gH6wjS3MZehGPubwq3iyPLyuQMVuo4vsBiP+Ocwuq/WxuZwRjUfYsiy4LswPAW7J9vscFS6yl1nv24hZDriNftHIsImccBxMcURZYFuYM2Y9dshb33YQovEPINpxE/htg12IV9IQ+xG+rYgSbLglyGvfwosxG13s0JpPmAK9gO9ThSlxDS7buugSZLtyW7KPATbuDwZternbgHe1+m1geaLJ3LJUvncsnSuVyydC6XLJ3L0xn6C4QpG51QQLlSAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="SizeMode">AutoSize</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">165, 8</Property>
+      <Property name="Name">imageTitle</Property>
+      <Property name="Size">150, 32</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.button, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="button1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">12</Property>
+        <Property name="Y">7</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">32</Property>
+        <Property name="_Name">button1</Property>
+        <Property name="_Width">32</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value">
+      </Property>
+      <Property name="Pressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAodJREFUWEe9l81O20AUhfMIiEXFIyBWLCrEAlU8BmLFArFEWXeB4iRVqognKLsIhUhJ1Dg/SgSSs+ii7a4tSPxIZQl9iZaeY98heDwTJ47NJ10lnrm+584dz4ydm4dCobAM24LtwA5hRzDCX16znf3Lcks6IOAq7AAWolQqlR3HKcqlDv1XJUQyEGAJtsdoOuVy+cNgMLjvuO7llCQI71+SkLODm9Zg7xlBR8R/j8fjJ1qv17stFosl6TbBOGsSOh44v4Wp+Q3Bsvf7/TslrqxWq7niYoPxNkTCDpw4cqs4R6uLt1qtr+ISB+PaK4FOzrmx7LaRt9vtb+IyK4xvfibQYXzgpoh/F5d52RPJCWjkUotgK3uCkeuElygajOs8I3FyINK+OHe4EFzbEL/JSFwR7Jj4w+3zGYq7rntlEE865za2VALcw30ozt3tFcTJjkqAB8k08TTL/pJDlcCRlD0i7nne39Fo9Cdle6xUKh+pqxJwTCPP0qrV6jFL8DKBXybHrExPgM+AsQqYgn8s2XA4fEjLEO9BpiCvEtiFEWMlMloBZFcl8C649jFWIqMktlUCb4LrANuKkOXoBF6psOInQHChnwVOt9u91pOY4+yPY3IWEDRETkO+ZpkOo2az+UVcFiH6worG/aBvgi2JRqMxFpckhEevQMcKLPJGZDuW62dnF+IyD4w/mXsddK77bhqmSnjJklgXKTtw2gx8wxiT8Lyner1+Li5xbIpEPHBmJSLTwST090Mm8enk5FRcTDBO/Mh1cBOficirmv5h8rnT+YFm2/7A++1zPgsIEPk2VElA/CcuTeL0X+zbUAcBWZFtGM+OPHdM/CrxPIzt3NYXG/Hrkcv9B9kjMLf0sFKwAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="Unpressed_image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAYZJREFUWEfVl0tOwzAQQEOTlgpW7DgS5+AMiCVLlnxPABIfZQPiswGOAAJOg9TYDs/OREmUsIsn4kmjaadW33jya5N/TVmWSyKTt7o45zaJt8Laa5qYS1kHhBvIX8kBXj+QFvJxXBAtET4Hcwtj3K4siQceL3+slA3UjklrsiwOCLz8KRhbUDshTSO31p6RVOS9sVvnTkmTyVXGniG/D8YW1FR2nrHL22BswTE/J8WXF9bdBGMLGlI54ZDbIbnS2Ad2zjEviG/ia8T45Ku3RB3k6dDOI7MtemnAuauqrkbTgIeCn4J/tHZgXMaPjPgYK/jad6I5BDUUZ5xwvUlQi3/51SBiEhNdhjWI/roi/OU4k2VxQZRy57sL5hY0cURSm8QCof+51YHaIUmnCWTrRO+JaIw5kCXxwTf4WF4Zsy9L4jM0CUesjNNrAl/vnOC9YxJ7siQ+MonOz3LfxE9R7MiS+OD0f0xeKn1ZcuO6IOncH2oQhiZ4flzmeZ5KWReamKvvfFyS5BfqwEjadpxOJwAAAABJRU5ErkJggg==</Binary>
+      </Property>
+      <Property name="PathPressed_image">back_32_selected.png</Property>
+      <Property name="PathUnpressed_image">back_32.png</Property>
+      <Property name="BindTap">onBackButton</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="FlatStyle">Flat</Property>
+      <Property name="FlatAppearance">
+        <Property name="BorderSize">0</Property>
+      </Property>
+      <Property name="UseVisualStyleBackColor">False</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackgroundImageLayout">Center</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">12, 7</Property>
+      <Property name="Name">button1</Property>
+      <Property name="Size">32, 32</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">
+      </Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">Header-bg.png</Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">Header-bg.png</Property>
+      <Property name="_Height">48</Property>
+      <Property name="_Name">custompanel1</Property>
+      <Property name="_Width">480</Property>
+      <Property name="BkColor">255, 212, 208, 200</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">212, 208, 200</Property>
+    <Property name="ClientSize">480, 48</Property>
+    <Property name="Location">0, 22</Property>
+    <Property name="BackgroundImage">
+      <Binary>iVBORw0KGgoAAAANSUhEUgAAAeAAAAAwCAYAAADJnakOAAAABGdBTUEAALGPC/xhBQAAANNJREFUeF7t1TEBACAQACHt38CE30JbeAsDGVj7zAUA/hIwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQNAQMAAEBAwAAQEDAABAQPAd3Mf1vzBMOMlQxsAAAAASUVORK5CYII=</Binary>
+    </Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

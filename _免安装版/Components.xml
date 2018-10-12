@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <Components>
 	<Component Name="page" Namespace="System.WinWindows.Forms" Asm="System.dll">
 		<Propertys>
@@ -22,6 +22,7 @@
 			<Property Name="QEmergeLocation" Caption="移动" Group=""/>
 			<Property Name="QuitAnimState" Caption="淡入淡出" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
+			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
 		</Propertys>
 		<DataBinding>
 		</DataBinding>
@@ -77,7 +78,7 @@
 			<Property Name="Textd" Caption="控件文本" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
-			<Property Name="AutoSize" Caption="自动调整大小属性" Group=""/>
+			<!-- <Property Name="AutoSize" Caption="自动调整大小属性" Group=""/> -->
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
 		</Propertys>
 		<DataBinding>
@@ -88,14 +89,13 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
-			<Property Name="Id" Caption="id" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
 			<Property Name="_Height" Caption="高度" Group=""/>
 			<Property Name="ImagePath" Caption="图片" Group=""/>
 			<Property Name="_Name" Caption="控件名称" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
+			<!-- <Property Name="Align" Caption="文本对齐" Group=""/> -->
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
@@ -206,13 +206,8 @@
 	<Component Name="checkbox" Namespace="System.Windows.Forms" Asm="System.dll">
 		<Propertys>
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Text" Caption="控件文本" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="Id" Caption="id" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -238,14 +233,10 @@
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="Orient" Caption="方向" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
 			<Property Name="value" Caption="当前值" Group=""/>
 			<Property Name="Min" Caption="最小值" Group=""/>
 			<Property Name="Max" Caption="最大值" Group=""/>
-			<Property Name="Id" Caption="id" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -271,14 +262,10 @@
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="Orient" Caption="方向" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
 			<Property Name="value" Caption="当前值" Group=""/>
 			<Property Name="range" Caption="最大值" Group=""/>
 			<Property Name="Min" Caption="最小值" Group=""/>
-			<Property Name="Id" Caption="id" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -302,13 +289,9 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="_Name" Caption="控件名称" Group=""/>
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="Locked" Caption="控件锁定" Group=""/>
-			<Property Name="Id" Caption="id" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -349,9 +332,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
@@ -363,7 +343,7 @@
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
-			<Property Name="BindTap" Caption="bindtap" Group=""/>
+			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
 			<Property Name="CustomPanel" Caption="自定义面板" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
 		</Propertys>
@@ -376,9 +356,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
 			<Property Name="_Height" Caption="高度" Group=""/>
@@ -423,9 +400,6 @@
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<!-- <Property Name="border_style" Caption="外框显示方式" Group=""/> -->
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -494,9 +468,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -524,9 +495,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -550,9 +518,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -649,9 +614,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="_Name" Caption="控件名称" Group=""/>
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="Locked" Caption="控件锁定" Group=""/>
@@ -680,9 +642,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -707,9 +666,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -737,9 +693,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>
@@ -748,6 +701,7 @@
 			<Property Name="_Name" Caption="控件名称" Group=""/>
 			<Property Name="Visibled" Caption="是否隐藏控件" Group=""/>
 			<Property Name="PathBackImage" Caption="背景图片" Group=""/>
+			<Property Name="BindTouch" Caption="bindtouch" Group=""/>
 			<Property Name="BindTouchStart" Caption="bindtouchstart" Group=""/>
 			<Property Name="BindTouchEnd" Caption="bindtouchend" Group=""/>
 			<Property Name="CtrlType" Caption="控件类型" Group=""/>
@@ -760,9 +714,6 @@
 			<Property Name="BkColor" Caption="背景颜色" Group=""/>
 			<Property Name="FrColor" Caption="前景色" Group=""/>
 			<Property Name="OPacity" Caption="透明度" Group=""/>
-			<Property Name="Align" Caption="文本对齐" Group=""/>
-			<Property Name="font" Caption="字体"  Group=""/>			
-			<Property Name="FontSize" Caption="字体大小"  Group=""/>
 			<Property Name="X" Caption="x坐标点" Group=""/>
 			<Property Name="Y" Caption="y坐标点" Group=""/>
 			<Property Name="_Width" Caption="宽度" Group=""/>

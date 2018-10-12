@@ -1,0 +1,152 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.imagebox, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">148</Property>
+        <Property name="Y">96</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">32</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">32</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">right_32.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAARhJREFUWEftlb1OAlEQhVeINtriQ2yx2Z9HMVtQqLS2IGpo9iFIwEboKUQeDEqN0PCNHnoLM9Psl5zc3GnOnNm5kLS0/JW6rrscnd9bAGVZPqBHXf3BfIr2aJKm6YXKfmRZdon5G/pCMZNomqaD+ayqqm/0FD2JT2tCZV/sRdDAHO1p4iVsEpgvbBJopLIv2om57QTnOGQSmF5hfprEWGVftBOvyHbiOXInljYJzqHKftDANeYfaJvn+Z3KPtjIMd6Q/GDm+uPyQck3aFcUxa3KPmj51pbczCOSr9EW3avsA4nPMf355mYe8s0x37knt59ejN9DkvO8emaOsSUfqOwH5islH7gmP8Ezu6GBvq4hnEktLf9IkhwBJolm2rOih9sAAAAASUVORK5CYII=</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">148, 96</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">32, 32</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Object type="Library.WheelImage, Library, Version=1.0.6785.20016, Culture=neutral, PublicKeyToken=null" name="wheelImage1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">
+        </Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">181</Property>
+        <Property name="Y">60</Property>
+        <Property name="_backImagePath">
+        </Property>
+        <Property name="_Height">105</Property>
+        <Property name="_Name">wheelImage1</Property>
+        <Property name="_Width">120</Property>
+        <Property name="BkColor">255, 212, 208, 200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="border_style">RTGUI_BORDER_NONE</Property>
+      <Property name="norSize">32</Property>
+      <Property name="selSize">32</Property>
+      <Property name="selNum">0</Property>
+      <Property name="Orient">垂直</Property>
+      <Property name="BmpList">
+        <Property name="Images1">
+          <Property name="Name">zh_CN.png</Property>
+          <Property name="Binary">iVBORw0KGgoAAAANSUhEUgAAAHgAAAAgCAYAAADZubxIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAABOVJREFUaEPtmmuoFVUUx40yEix6+MEPfshA6I2FPUwJsigqCPJDQRmSqRUaFJk9QKIM6mORJNmLykrTohcECRVYIERFFFH2MHpLpRXRy/T2+x/WPqy7XXPuMfecLsP84XfP2v+1Zu49Z509s2fmjhkaGmppMKHZ0hxCs6U5hGZLcwjNluYQmi3NITRbmkNotjSH0KwDdCqsg6kV+cvgWdg/ynvQTJhXkVsG90W5fkBT4SlYHOX3BHQBXBzlBkVo1gF6C3ZU5A6F32FLlM9BDwJhmHsetka5fkAngoI7o/yegH6FbTAhyg+C0CwNugkUiF3wJ+jN/wDPwdOQ8v/AH6D8T7AVpmX7+xke9p7LjaYGX2r7Wh3lB0FolgTNtjd5B+gNr4TLYY69aqy8ZqU8Hcb1KubCFbCv299ZoGC6/z0uP7AGo7PhalgM18L1sCRDhWstvgoWZCyM9l2K0CwFOh8UrLfxWPgF3rHxYaDgCxtPs/FjaR856F54D6bDtxXsDDyxwfZxFKzvgYo+yjzPcve3KNhbDvbvsSShWQqkb7WacQJ8BlocHQdfQ2exhZbDKW6bc+C1NPagcaBG3QNq8IvwErwCr4OKdArQq9gI8jfAy3C/7UcNVqBTwI8BykW+UO5x289+cIDje3gD9HdWoQ1XQHc7/x5LE5p1gDQjFJwL6bDdD93zL7rLvBV+35a72XI6d+tVzMrrrDY1eFGQ63mItlynwUFOXzwF+1TkdUpSMCPK10FolgSNh5PhINCKcr75M0ZgIagwzfSjbSxW+t9hec3sd0GzSMar8FBeZ7V1NViXggpmV+RfgO+iXF2EZkmQDtOE3fEhoMuiEFeXPqzjbazVtgKxKtVZLh0RtADbYvFFoBX5JF9r9bU0WKDNVXn0F9wd5eoiNEuC8gY/oHEPOocv1G0wHGHxlfY6bGYizYwvLf4QCDvxJxDN9jobrDWFgtMzf6n5Z3i/bkKzJChq8K40dr4O4Qp2a7CNN9qrfjzitjvJvCU2fltji9OHOjPVm58a/D5okZaj3KeZ53OVDRZIi7uvYJyNtXBUsNuXrW5CsyQobDDoPKtVdTrn6ppSBWGD3fb60bmMQhNAjRAHmqcPd6fFOh18Ax/AWLeP1GDlIkbKjdRgXSko0N8y0eLNUW3dhGZJUFWDtweooJ8GP2FxujQ60+V1ybTdjS8EBbrZkGaUGqwZ9l8O0dquZ4MFug4UpPfVvRQcJKFZElTkEO3q9GMNrLZYh+F5oEOz0G3MHW58A6TLK33YE/3+clDPBvcL0oMGLao0+BiOjOrqJjRLgqpm8PyMa0AFqcG6tFIQNVhPnf6GteZpFa0nQEI3UXT/Oo3nWs3tsM7vKwLtVYPRFEgrft3c0ZdRsVgFA210aJYEVTX4zQpSg9MHXTWDu4flLP+/PGxAsyDdVxe3utxk0Jct5TaBVtuT/T7qIDRLgvIGXwK3pLEHaUHSuXWHbgMF47MaHX7XeM+DBvmwQU191OoTmqXHVNTrOv1J8PXbotpShGZJ0LAG9wKly5DEM0HNbzBaGnya1X4OWgsM+zJWgSaBnq7psenSqKYUoVkSpA/hxiiXg84DPXJbBMdW1Og/NiofsSFtuyzK9QM6HHRPeU6Uz0FTIn+0EJotzSE0W5pDaLY0h9BsaQ6h2dIUhsb8C715gZMwN2qCAAAAAElFTkSuQmCC</Property>
+        </Property>
+        <Property name="Images2">
+          <Property name="Name">zh_TW.png</Property>
+          <Property name="Binary">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</Property>
+        </Property>
+        <Property name="Images3">
+          <Property name="Name">japanese.png</Property>
+          <Property name="Binary">iVBORw0KGgoAAAANSUhEUgAAAHgAAAAgCAYAAADZubxIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAi1JREFUaEPt2j1rFFEYxfHVSi3MZ7C1sRMsRBFS2RjRWvAVLMR38BNYKKYRrAVBUFBEK18KBUG0EgSDIFhYaa+Fxfo/MBNuJmd0ls3Acy/3wC/cPffuFHnIZjObyXQ6rQpmy6octqzKYcuqHLasymHLqhy2rMphy4pvzGRyFdvdXk5smQNybFbuOg5Zghb33X5ObBkd2dUMYBY/3bX6kHvN8w66/VzYMjrSDvgcFgb4hDUDJqdxFrrGBVzB5cR16OBNnIfOr5NeMyJbRkfaAZ9y+13EDfg3tJjH5/SaEdkyOrIRA96S2AeVJ7C1xxnozAGsPje9ZkS2jI7MPeAu8h3P3J6QV/jh9iKzZXRkjAHfghabevb1ZdntRWbL6Eg74BfQYP5nyID3QIvDZu9Is7e/uxedLaMj7YBn8c8BC3mPN6Z/jm/dPge2jI5s+Eu0kN3Q4m7S3Wi6pfRsLmwZHRllwEIuQQvdqjzerG+7szmwZXRktAELeQstZMWdyYUtoyNjD3gZWsgdbHbncmDL6MhYv4OP4iv04DEeNes/0O3L7AZty+hIO+AHuDhA74DJNujTpqdQ8QWrfyqRQ/gIPfiFJwh/D7ply+hIO+BZrBkw0Ruo182e6Cf3WnomRU7iHdrz8sGdjcSW0ZG5X6KJboBo8RLrbm70IXvxEHqw052JxJY5IIsY9B8XzdlF0+/odkOR8B80iC2rctiyKoctq3LYsiqHLaty2LIqxXTyFwzkG/k22uk0AAAAAElFTkSuQmCC</Property>
+        </Property>
+        <Property name="Images4">
+          <Property name="Name">english.png</Property>
+          <Property name="Binary">iVBORw0KGgoAAAANSUhEUgAAAHgAAAAgCAYAAADZubxIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAA5tJREFUaEPtmUloFFEURYNxCEEQA0JEXIgEMYJiRDcGnBHEcWEUFKNgkKA4Kzjgxo24UYRsFCFxIYgGwTjvBEUM6sJhI+giEEScIii6a+8L7xUvv193umLqS//8C4euf++rSpPbQ1V1RS6XiwSMaUbCwTQj4WCakXAwzUg4mGYkHEwzEg6m6QtoeiGs+SyA3gDaqFbeAdABxunZYkB1gDYeWPn/wjR9AM3nf0ghxlv7DTeQVXAPe8v1bDGgWLAGkoI/gzaDKmu/4QayCp4LmvXcYECxYA0kBb+0cl9AeQUPBSgWrIFKLhiaRKg17dsIJuo5F2gWWAlqeD3gOOxZ7+AqQs+pjIpcDeoNnzaSgqF5YNDnmSWm6QOopIKhep7rAuvBV14T38A6Y5+14BOQOeICeMfbM9WsVfAr9pLzAGgjeMu+ZgznScGAXgBfeE38Bq1yLJ+Ypg+gpGAw1kXNScFSzjZA74yjvO5xjruMfXoh7ARUTAugFwP5RJ2aH7RgaAqvif2gCRwEL4Bb8Ht+3A7oeR7i9XdQKX/DF6bpA0gKtniq5qRgInnncXaL/YXKu8veHGd2AftE2oLpE4E2nsuMCyQFE0ucrJP9Rdr3gWn6AJKC+wAVpelQc0nB4qnsFGdreF3N6153lvNnnKctuJbXP4B56QQlBRvZMc42uFnWmKYPoLTfwZeMbA9nTbxu4PVFd5bz+5ynKpi9c+wRj8BmyTiXgtu1z9kuzra4WdaYpg+gtAVfMTIpeCuvV/G6zZ3l/CHnqQtmfzY4D/4AMu6pTAq+qvfhTAre4WZZY5o+gNIWfM3IpOD+mxKQzF53Zzl/zfmQClb5VCDHWsqeFNxpzEvBLW6WNabpAyhtwTeNzC14FOhlr8GZpbNp2iD+qWACaueZI7yWgm8bsyO64F+ATn5cTvCcFNxlHEMuQZLbitBu9uiyhF4AdNlE16bk0UkSPaY9ydoHukEroOMfBx8Bhf03PCApOO9OFrSXsxFZcCFKKfgkZwPuG0NUwk/OiA9gBZDv4Fo1W0rBzUAKFZ6ATWqfYgXLNfvIKTgNUCVRKLN8AqKTomlqTTdV+pyZ0YTjTSC0x34NWAwmuxnnecfSmeVnjWmGCCSfBN1WHiqmWc5AZ0Gj49HXwWNAi7x71yFjmuUMdIOL1PeehTPWPiFjmuUMRD9W0E+Ep8EdcBkcBjOs+dAxzUg4mGYkHEwzEg6mGQkH04yEQq7iL7bzD+18QabNAAAAAElFTkSuQmCC</Property>
+        </Property>
+        <Property name="Images5">
+          <Property name="Name">french.png</Property>
+          <Property name="Binary">iVBORw0KGgoAAAANSUhEUgAAAHgAAAAgCAYAAADZubxIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC42/Ixj3wAAAx9JREFUaEPt2E2IjWEUB/CZxmdj2AwlX8lnNuRrY4MiaqJIrGYpO0Mx+ZyFlKymyWhIWQhlmh0pYjEylMLGajKymCxYSKQhrv/ReW7Huf/rzs14ZjyeU7/Xe//nvLebM/Pee6emUChkCaNhlg4aZumgYZYOGmbpoGGWDhpm6aBhbKgF5bD5sQYlhyHWG200jAm1Rv+DypnCrhtL9HXmBTOosOC30ElMYteNJai84HJQYcFPWf9foK8/L5hBDWvBqJmwxDyeB2vtjOYzYCsUZ11/ujCPZ0MTzLdzHqoOloM8d/F67cmhuGDUItgEs+zcaKBhTKjhLrhD52QZvXqOVrE/DW6EXL2AjWFG5wa1Vw8P9Dw4a2fNNSfMTHDf9OUwBAuhXx8HZ+xzxUbDmFDVLrhd/90P90z/ueZ7YQUchNfwEexvbFjwQ2iDdSDPNQCS7wizOn9F8x7YCavgNPSbGTnIgl+B/JCthlPwCaRXcqeJhYYxocKCv8Abp8/MhQWLBvccLZpfcvk+zdtNFhbc5mb3aH7RZLs0u2xnPZ0RLS4/ovlhm8dEw5hQYcHfiEdmLiz4ur1ee+FWu8zlczXvMVlY8C/fsVHyni4n3Sbr1my7nfV0RtS6fIPmo3abpmFMqGpv0c2k91575Twxsz8XHB6bvEFyuGUyeQ+Xkzo76+kMTktyeauQkw7fi4WGMaGqXfBm0vsKcos/acgHo+NwDI6a2UoLvmsyeQ//bOcYlBwGSB4W3OV7sdAwJlS1C24ivZfaG+97HqrSgntNdlOzRjvr6cwgycOCf/se/jfRMCbUSCz4nPZaSa/ePa604McmO6DZBTvr6cw7kocFX/W9WGgYE2okFtwI4StJF+yGbXBIs5VmttKCn7m8T3P5wNUMW+AOFF8vSg4f7HWahwVf871YaBgT6o8XrP2lcFtnrPMw0cxVu+DJID8030ECId93O82MHEr+VImS78Ny8v8ueKShpsJ6WAwTSF/+5Eg/FVfo1YL8Rs4hvXHC55V6MdAwSwcNs3TQMEsHDbN00DBLBw2zdNAwSwcNs3TQMEtFoeYHt8ZUgw1FqOMAAAAASUVORK5CYII=</Property>
+        </Property>
+      </Property>
+      <Property name="ShowNum">3</Property>
+      <Property name="BindChange" />
+      <Property name="BindTap" />
+      <Property name="ForeImg" />
+      <Property name="ForeImagePath" />
+      <Property name="AutoScroll">True</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="ForeColor">Black</Property>
+      <Property name="Location">181, 60</Property>
+      <Property name="Name">wheelImage1</Property>
+      <Property name="Size">120, 105</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="Visible">False</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">
+      </Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_backImagePath">
+      </Property>
+      <Property name="_Height">224</Property>
+      <Property name="_Name">language</Property>
+      <Property name="_Width">480</Property>
+      <Property name="BkColor">255,255,255,255</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">White</Property>
+    <Property name="ClientSize">480, 224</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="Text">language</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="Font">宋体, 9pt</Property>
+    <Property name="ForeColor">Black</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>
